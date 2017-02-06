@@ -16,7 +16,7 @@ Our staging environment is hosted by Heroku and it's automatically deployed upon
 
 ### How to install it
 
-- Linux/Windows server running **Go 1.6+**: [https://github.com/WeCanHearYou/wchy-api](/WeCanHearYou/wchy);
+- Linux/Windows server running **Go 1.6+**: [https://github.com/WeCanHearYou/wchy](/WeCanHearYou/wchy);
 - A **PostgreSQL** database;
 
 We plan to add Docker support on a later stage.
