@@ -1,4 +1,4 @@
-![](Logo2.png)
+![](logo2.png)
 
 ## Welcome! 
 
