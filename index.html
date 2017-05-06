@@ -1,56 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <title>We Can Hear You :)</title>
-    <style>
-      body {
-        margin: 20px;
-      }
-      img {
-        width: 300px;
-      }
-    </style>
-  </head>
-  <body>
-    <img src="logo2.png" />
-    <h3>Welcome!</h3>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>WeCanHearYou - an open source, cross platform and free to use customer feedback system for companies and products</title>
+  
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
 
-    <p>WeCanHearYou is an open source, cross platform and free to use customer feedback system for companies and products.</p>
-    
-    <h3>Current stage</h3>
+<!-- Page Contents -->
+<div class="pusher">
+  <div id="banner" class="ui vertical masthead center aligned segment">
 
-    <p>We're currently bootstraping the application, so there isn’t much to see yet. You can keep track of its progress using our <a href="https://github.com/WeCanHearYou/wchy">GitHub repository</a>.</p>
+    <div class="ui text container">
+      <img src="logo1.png" />
+      <h1 class="ui inverted header">
+        WeCanHearYou
+      </h1>
+      <h2>an open source, cross platform and free to use customer feedback system for companies and products</h2>
+      <a href="#more" class="ui huge primary button">Learn more <i class="right arrow icon"></i></a>
+    </div>
 
-    <h3>Features</h3>
+  </div>
 
-    <ul>
-      <li><b>Customer-First experience:</b> We believe that an easy to use and clean feedback platform is the way to go to enable your customers to shares its ideas with you.</li>
-      <li><b>One click log in</b> with OAuth and Social Login. Registration is only a single click, no forms, no question, just click it!</li>
-      <li><b>Let your users share ideas on how to make your product even better.</b> They use your products everyday and surely have tons of ideas on how you can make your products even better. Give them the voice they need, learn from them, interact, deliver and profit!</li>
-      <li>The best ideas come from multiple minds working together. <b>Let your community contribute by improving existing</b> ideas and you'll be surprised with what they can do together.</li>
-      <li>Hundreds of ideas require organization. You can do so by <b>tagging ideas</b> to make it easier to find, group and decide.</li>
-      <li><b>Share private ideas within your team:</b> Got an idea that is not yet ready to become public? Don't worry, we've got your back. Make it private and keep shaping it untill it's ready to become public, or keep it private forever, you decide.</li>
-      <li><b>Lightning fast.</b> Because yes, performance IS a feature. We think about performance in every aspect and take it very seriously. It makes our users happier and our servers healthier.</li>
-    </ul>
+  <div id="more" class="ui vertical stripe segment">
+    <div class="ui middle aligned stackable grid container">
+      <div class="row">
+        <div class="six wide column">
+          <h3 class="ui header">We can help your company know more what your customers need</h3>
+          <p>!!!!!!!!We can give your company the power it needs to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.!!!!!!!!</p>
+          <h3 class="ui header">Easy. Fast. Free.</h3>
+          <p>Yes that's right, simple as that.</p>
+        </div>
+        <div class="eight wide right floated column">
+          <img src="homepage.png" class="ui large bordered rounded image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="center aligned column">
+          <a href="#features" class="ui huge primary button">Features <i class="right arrow icon"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <h3>Demo environment</h3>
+  <div id="features" class="ui vertical stripe quote segment">
+    <div class="ui equal width stackable internally celled grid">
+      <div class="center aligned row">
+        <div class="column">
+          <h3>Customer-First Experience</h3>
+          <p>We believe that an easy to use and clean feedback platform is the way to go to enable your customers to shares its ideas with you</p>
+        </div>
+      </div>
+      <div class="center aligned row">
+        <div class="column">
+          <p><b>Lightning fast.</b> Because yes, performance IS a feature. We think about performance in every aspect and take it very seriously. It makes our users happier and our servers healthier.</p>
+        </div>
+        <div class="column">
+          <p><b>Let your users share ideas on how to make your product even better.</b> They use your products everyday and surely have tons of ideas on how you can make your products even better. Give them the voice they need, learn from them, interact, deliver and profit!</p>
+        </div>
+      </div>
+      <div class="center aligned row">
+        <div class="column">
+          <p><b>One click log in</b> via social login. No forms. No hurdles. Just click it!</p>
+        </div>
+        <div class="column">
+          <p>The best ideas come from multiple minds working together. <b>Let your community contribute by improving existing</b> ideas and you'll be surprised with what they can do together.</p>
+        </div>
+      </div>
+      <div class="center aligned row">
+        <div class="column">
+          <p><b>Hundreds of ideas require organization.</b> You can do so by <b>tagging ideas</b> to make it easier to find, group and decide.</p>
+        </div>
+        <div class="column">
+          <p><b>Share private ideas within your team:</b> Got an idea that is not yet ready to become public? Don't worry, we've got your back. Make it private and keep shaping it untill it's ready to become public, or keep it private forever, you decide.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <p>Our staging environment is hosted by Heroku and it’s automatically deployed upon commit to master.</p>
-    <p>* Demo: <a href="http://demo.canhearyou.com">http://demo.canhearyou.com</a></p>
-    
-    <h3>How to install it</h3>
+  <div id="more" class="ui vertical stripe segment">
+    <div class="ui middle aligned stackable grid container">
+      <div class="row">
+        <div class="seven wide column">
+          <h3 class="ui header">See it in action</h3>
+          <p>Visit our demonstration instance. You log in, share ideas and tour around it.</p>
+          <p><a target="blank" href="http://demo.canhearyou.com" class="ui huge primary button">Try the demo <i class="right arrow icon"></i></a></p>
+        </div>
+        <div class="seven wide right floated column">
+          <h3 class="ui header">We are on GitHub</h3>
+          <p>Built with the latest and greatest Go, React and TypeScript, the full source code is availalbe on GitHub.</p>
+          <p><a target="blank" href="https://github.com/WeCanHearYou/wechy" class="ui huge grey button"><i class="github icon"></i>Visit WeCanHearYou/wechy</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <p>No instructions are available yet, but you'll need:</p>
+  <div class="ui inverted vertical footer segment">
+    <div class="ui container">
+      <div class="ui stackable inverted divided equal height stackable grid">
+        <div class="seven wide column">
+          <h4 class="ui inverted">Built with <i class="heart icon"></i>.</h4>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <p>* A <strong>Linux/Windows</strong> server. There is no runtime dependency.</p>
-    <p>* A <strong>PostgreSQL</strong> database.</p>
+  <!--
+  <div class="ui inverted vertical footer segment">
+    <div class="ui container">
+      <div class="ui stackable inverted divided equal height stackable grid">
+        <div class="three wide column">
+          <h4 class="ui inverted header">About</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item">Sitemap</a>
+            <a href="#" class="item">Contact Us</a>
+            <a href="#" class="item">Religious Ceremonies</a>
+            <a href="#" class="item">Gazebo Plans</a>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header">Services</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item">Banana Pre-Order</a>
+            <a href="#" class="item">DNA FAQ</a>
+            <a href="#" class="item">How To Access</a>
+            <a href="#" class="item">Favorite X-Men</a>
+          </div>
+        </div>
+        <div class="seven wide column">
+          <h4 class="ui inverted header">Footer Header</h4>
+          <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  -->
+</div>
 
-    <p>We also have Docker as a first-class citizen to make self-hosted deployment a lot easier. Up to date images can be found on <a href="https://hub.docker.com/r/wecanhearyou/">https://hub.docker.com/r/wecanhearyou/</a></p>
+</body>
 
-    <p><strong>Thank you for the visit, hope to see you soon again :)</strong></p>
-  </body>
 </html>
