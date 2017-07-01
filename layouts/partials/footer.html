@@ -2,12 +2,9 @@
     <nav>
       <ul>
         <li><span>Fider</span></li>
-        <!--<li>
-          <a href="/blog/">Blog</a>
-        </li>
-          <li>
-          <a href="/docs/">Docs</a>
-        </li>-->
+        {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{end}}
       </ul>
     </nav>
     <p>&copy; Licence MIT.</p>

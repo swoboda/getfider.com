@@ -7,3 +7,7 @@
   margin-bottom: 64px;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.15);
 }
+
+#post-list #posts {
+  text-align: left;
+}
