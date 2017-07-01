@@ -1,0 +1,27 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Fider"
+theme = "kube"
+publishDir = "docs"
+description = "Fider is an open source, cross platform and free to use customer feedback system for companies and products"
+Paginate = 4
+googleAnalytics = "UA-100812395-1"
+[Params]
+  RSSLink = "/index.xml"
+  author = "newpixcom" # add your company name
+  github = "" # add your github profile name
+  twitter = "" # add your twitter profile
+  email = "me@goenning.net"
+
+[[menu.main]]
+    name = "Docs"
+    weight = -100
+    url = "/docs/"
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"
+[[menu.main]]
+    name = "Faq"
+    weight = -100
+    url = "/faq/"

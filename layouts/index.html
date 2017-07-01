@@ -1,0 +1,80 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div id="main">
+  <div id="hero">
+    <span><img src="/images/logo1.png" class="logo"/></span>
+    <h1>{{.Title}}</h1>
+    <p>{{.Description}}</p>
+  </div>
+  <div id="action-buttons">
+    <a class="button primary big" href="http://demo.fider.io">Try the Demo</a> 
+    <a class="button outline big" href="https://github.com/getfider/fider">View on Github</a>
+    <p><!--Version 0.3.0 from July 1, 2017. <br/>--> Easy. Fast. Free.</p>
+  </div>
+  <!--
+    <div class="message focus" data-component="message"> <span class="close small">
+      We can help your company know more what your customers need
+    </span></div>
+  -->
+  <div id="kube-features">
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <figure>
+          <i class="fa fa-smile-o fa-3x" aria-hidden="true"></i>
+        </figure>
+        <h3>Customer-First Experience</h3>
+        <p>We believe that an easy to use and clean feedback platform is the way to go to enable your customers to shares its ideas with you.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <i class="fa fa-bolt fa-3x" aria-hidden="true"></i>
+        </figure>
+        <h3>Lightning fast</h3>
+        <p>Because yes, performance is a feature. We think about performance in every aspect and take it very seriously. 
+          It makes users happier and your servers healthier.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <i class="fa fa-hand-o-up fa-3x" aria-hidden="true"></i>
+        </figure>
+        <h3>One click sign in</h3>
+        <p>No forms. No hurdles. Just one click away!</p>
+      </div>
+    </div>
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <h4>Community based feedback</h4>
+        <p>The best ideas come from multiple minds working together. Let your community contribute by improving existing ideas and you'll be surprised with what they can do together.</p>
+      </div>
+      <div class="col col-4 item">
+        <h4>Organize the ideas</h4>
+        <p>Hundreds of ideas require organization and you can do so by tagging ideas to make it easier to find, group and decide.</p>
+        <span class="label tag custom">Planned Feature</span>
+      </div>
+      <div class="col col-4 item">
+        <h4>Keep it private</h4>
+        <p>Got an idea that is not yet ready to become public? Don't worry, we've got your back. Make it private and keep shaping it until it's ready to become public, or keep it private forever, the choice is yours.</p>
+        <span class="label tag custom">Planned Feature</span>
+    </div>
+    </div>
+      <div class="row gutters">
+        <div class="col col-4 item">
+          <h4>Mobile-friendly Design</h4>
+          <p>Fider fully embraces latest and greatest tech.</p>
+        </div>
+        <div class="col col-4 item">
+          <h4>Cross-browser</h4>
+          <p>Fider works in all modern browsers, both desktop and mobile, including latest Chrome, Firefox, Safari, Opera, IE and Edge.</p>
+        </div>
+        <div class="col col-4 item">
+          <h4>License</h4>
+          <p>Fider licensed under <a href="http://opensource.org/licenses/MIT">MIT</a><br>
+        Fider is absolutely free for personal or commercial use.</p>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}

@@ -1,0 +1,9 @@
+.logo {
+  width: 100px;
+}
+
+#kube-features .row:not(:last-child) {
+  padding-bottom: 32px;
+  margin-bottom: 64px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.15);
+}
