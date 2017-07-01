@@ -6,15 +6,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Blogs </title>
+  <title> Configuring OAuth </title>
 
   
+  <meta name="description" content="Enable one click sign in"> 
   
   
   
   
-  
-  <meta name="robots" content="noindex">
   
 
     
@@ -22,14 +21,16 @@
   <meta name="author" content="Fider">
 
 
-  <meta property="og:title" content="Blogs" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/blog/" />
+  <meta property="og:title" content="Configuring OAuth" />
+<meta property="og:description" content="Enable one click sign in" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/configuring-oauth/" />
 
 
 
-<meta property="og:updated_time" content="2017-03-02T00:00:00&#43;00:00"/>
+
+
+
 
 
 
@@ -59,9 +60,8 @@ ga('send', 'pageview');
 
   
   
-  <link href="/blog/index.xml" rel="alternate" type="application/rss+xml" title="Fider" /> 
 
-  <link rel="canonical" href="/blog/">  
+  <link rel="canonical" href="/docs/configuring-oauth/">  
 
   <link rel="shortcut icon" type="image/png" href="/images/favicon.ico" >
 
@@ -106,40 +106,57 @@ ga('send', 'pageview');
     </nav>
   </div> </header>
   <main>
+  <div id="main">
+    <div id="hero">
+      <h1> Configuring OAuth </h1>
+      <p class="hero-lead">
+           Learn how to create Facebook and Google sign in apps and use it in your Fider instance.
+      </p>
 
-<div id="hero" class="wrap">
-  <h1>Voice of Fider Developers</h1>
-    <p>Our vision, news and ideas, and whatever feels important.</p>
-</div>
-<div id="post-list">
-  <ul id="posts">
-   <div itemscope itemtype="http://schema.org/CreativeWork">
-    <h2 class="title">
-        <a href="/blog/version-0.3.0/" itemprop="headline">Fider v0.3.0 Released</a>
-        <time datetime="2017-03-02T00:00:00&#43;00:00">2 Mar, 2017</time>
-    </h2>
+    </div> 
+    <div id="kube-component" class="content">
     
-    <p itemprop="about">We&#39;re happy to announce that version 0.3.0 is now released</p>
-    
-</div>
- 
-  </ul>
-<div>
+<nav id="contents">
+    <ol class="js-toc">
+    </ol>
+</nav>
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded",
+function(){
+tocbot.init({
 
+tocSelector: '.js-toc',
+
+contentSelector: '.content',
+
+headingSelector: 'h3'
+})
+}
+);
+</script>
+
+
+
+    <h3 class="section-head" id="h-basic-template"><a href="#h-basic-template">Why is this required?</a></h3>
+
+<p>Authentication is a key component of Fider platform. We take security and usability very seriously, which is why we&rsquo;ve decided to go with Social sign in as the main authentication method. If you&rsquo;ve just got started with Fider, you&rsquo;ll need a Facebook and/or a Google app to get authentication to work.</p>
+
+<p>But don&rsquo;t worry, it&rsquo;s a very easy and fast setup explained below.</p>
+
+<h3 class="section-head" id="h-basic-template"><a href="#h-basic-template">Facebook</a></h3>
+
+<p>Pending&hellip; <a href="https://developers.facebook.com/apps/">https://developers.facebook.com/apps/</a></p>
+
+<h3 class="section-head" id="h-basic-template"><a href="#h-basic-template">Google</a></h3>
+
+<p>Pending&hellip; <a href="https://console.developers.google.com">https://console.developers.google.com</a></p>
+
+
+    
+    </div>
+    </div>
 </main>
-  <footer> 
-    <footer id="footer">
-    <nav>
-      <ul>
-        <li><span>Fider</span></li>
-        
-          <li><a href="/docs/">Docs</a></li>
-        
-      </ul>
-    </nav>
-    <p>&copy; Licence MIT.</p>
-  </footer> 
-</footer>
+  <footer></footer>
 
 
   <script src="/js/kube.js" type="text/javascript">

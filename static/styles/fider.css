@@ -2,12 +2,29 @@
   width: 100px;
 }
 
-#kube-features .row:not(:last-child) {
+#kube-features .row {
   padding-bottom: 32px;
   margin-bottom: 64px;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.15);
 }
 
+#hosting .hosting-grid {
+  margin-top: 104px;
+  text-align: center;
+}
+
+#hosting {
+  text-align: center;
+}
+
+#hosting p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
 #post-list #posts {
   text-align: left;
+}
+
+figure img {
+  border: 10px solid gainsboro;
 }

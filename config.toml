@@ -10,10 +10,10 @@ googleAnalytics = "UA-100812395-1"
   author = "Fider" # add your company name
   email = "me@goenning.net"
 
-# [[menu.main]]
-#   name = "Docs"
-#   weight = -100
-#   url = "/docs/"
+ [[menu.main]]
+   name = "Docs"
+   weight = -100
+   url = "/docs/"
 # [[menu.main]]
 #   name = "Blog"
 #   weight = -100
