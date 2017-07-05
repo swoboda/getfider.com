@@ -32,5 +32,16 @@ But don&amp;rsquo;t worry, it&amp;rsquo;s a very easy and fast setup explained b
 Facebook Pending&amp;hellip; https://developers.facebook.com/apps/</description>
     </item>
     
+    <item>
+      <title>How to enable SSL</title>
+      <link>/docs/how-to-enable-ssl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/how-to-enable-ssl/</guid>
+      <description>Prerequisites In order to configure HTTPS, you&amp;rsquo;ll need a Certificate and the Private Key.
+How to enable it Fider v0.3.0 shipped with two new environment variables that you&amp;rsquo;ll need to set.
+ SSL_CERT: This is the path to the Certificate file. SSL_CERT_KEY: This is the path to the Private Key file.  If you&amp;rsquo;re using Docker, these files won&amp;rsquo;t be inside the container, but Fider will need to have access to it.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -6,15 +6,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Docs </title>
+  <title> How to enable SSL </title>
 
   
+  <meta name="description" content="Host your instance under the HTTPS protocol"> 
   
   
   
   
-  
-  <meta name="robots" content="noindex">
   
 
     
@@ -22,10 +21,12 @@
   <meta name="author" content="Fider">
 
 
-  <meta property="og:title" content="Docs" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/docs/" />
+  <meta property="og:title" content="How to enable SSL" />
+<meta property="og:description" content="Host your instance under the HTTPS protocol" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/how-to-enable-ssl/" />
+
+
 
 
 
@@ -59,9 +60,8 @@ ga('send', 'pageview');
 
   
   
-  <link href="/docs/index.xml" rel="alternate" type="application/rss+xml" title="Fider" /> 
 
-  <link rel="canonical" href="/docs/">  
+  <link rel="canonical" href="/docs/how-to-enable-ssl/">  
 
   <link rel="shortcut icon" type="image/png" href="/images/favicon.ico" >
 
@@ -102,51 +102,64 @@ ga('send', 'pageview');
        
         <li><a href="/blog/" >Blog</a></li>
       
-        <li><a href="/docs/"  class="active">Docs</a></li>
+        <li><a href="/docs/" >Docs</a></li>
       
       </ul>
     </nav>
   </div> </header>
   <main>
-<div id="main">
-  <div id="hero">
-    <h1>Documentation</h1>
-  </div>
-  <div id="components">
-    <div class="row gutters">
-      
-      <div class="col col-4 item">
-        <h4><a href="/docs/hosting-instance/">Hosting your own instance</a></h4>
-        <p>Up and running in under a minute</p>
-      </div>
-      
-      <div class="col col-4 item">
-        <h4><a href="/docs/configuring-oauth/">Configuring OAuth</a></h4>
-        <p>Enable one click sign in</p>
-      </div>
-      
-      <div class="col col-4 item">
-        <h4><a href="/docs/how-to-enable-ssl/">How to enable SSL</a></h4>
-        <p>Host your instance under the HTTPS protocol</p>
-      </div>
-      
+  <div id="main">
+    <div id="hero">
+      <h1> How to enable SSL </h1>
+      <p class="hero-lead">
+           Follow this quick tutorial to know how you can host your instance under the HTTPS protocol.
+      </p>
+
+    </div> 
+    <div id="kube-component" class="content">
+    
+<nav id="contents">
+    <ol class="js-toc">
+    </ol>
+</nav>
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded",
+function(){
+tocbot.init({
+
+tocSelector: '.js-toc',
+
+contentSelector: '.content',
+
+headingSelector: 'h3'
+})
+}
+);
+</script>
+
+
+
+    <h3 class="section-head" id="h-prerequisites"><a href="#h-prerequisites">Prerequisites</a></h3>
+
+<p>In order to configure HTTPS, you&rsquo;ll need a <code>Certificate</code> and the <code>Private Key</code>.</p>
+
+<h3 class="section-head" id="h-basic-template"><a href="#h-basic-template">How to enable it</a></h3>
+
+<p>Fider v0.3.0 shipped with two new environment variables that you&rsquo;ll need to set.</p>
+
+<ol>
+<li><b>SSL_CERT</b>: This is the path to the <code>Certificate</code> file.</li>
+<li><b>SSL_CERT_KEY</b>: This is the path to the <code>Private Key</code> file.</li>
+</ol>
+
+<p>If you&rsquo;re using Docker, these files won&rsquo;t be inside the container, but Fider will need to have access to it. In order to accomplish this, we recommend the use of <a href="https://docs.docker.com/engine/tutorials/dockervolumes/">data volumes</a>.</p>
+
+
+    
     </div>
-  </div>
-</div>
+    </div>
 </main>
-  <footer>   <footer id="footer">
-    <nav>
-      <ul>
-        <li><span>Fider</span></li>
-        
-          <li><a href="/blog/">Blog</a></li>
-        
-          <li><a href="/docs/">Docs</a></li>
-        
-      </ul>
-    </nav>
-    <p>&copy; Licence MIT.</p>
-  </footer> </footer>
+  <footer></footer>
 
 
   <script src="/js/kube.js" type="text/javascript">

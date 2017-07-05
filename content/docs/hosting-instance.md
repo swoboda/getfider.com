@@ -7,7 +7,7 @@ toc = true
 bref = "A one minute guide on how to get your own Fider instance up and running"
 +++
 
-<h3 class="section-head" id="h-basic-template"><a href="#h-basic-template">Prerequisites</a></h3>
+<h3 class="section-head" id="h-prerequisites"><a href="#h-prerequisites">Prerequisites</a></h3>
 
 <p>We highly recommend using <a href="https://www.docker.com/">Docker</a> to host the application. It's the easiest and fastest way to get started and stay up to date with any future release.</p>
 

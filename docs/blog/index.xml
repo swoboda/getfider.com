@@ -6,7 +6,7 @@
     <description>Recent content in Blogs on Fider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,12 @@
     <item>
       <title>Fider v0.3.0 Released</title>
       <link>/blog/version-0.3.0/</link>
-      <pubDate>Tue, 04 Jul 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog/version-0.3.0/</guid>
-      <description>WRITE SOMETHING HERE</description>
+      <description>Fider v0.3.0 has just been released and includes following features:
+1. Staff now can add official response to ideas In you&amp;rsquo;re part of the Staff of a tenant, you&amp;rsquo;ll now see a Respond button where you can give your official status on what&amp;rsquo;s the plan for that idea. As of now, we&amp;rsquo;re currently supporting the following status: New, Started, Completed and Declined.
+  2. Much simpler Sign up / Installation process On previous versions, installing a new Fider instance required some SQL commands to be run.</description>
     </item>
     
   </channel>
