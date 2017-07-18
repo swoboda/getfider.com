@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "http://getfider.com/"
 languageCode = "en-us"
 title = "Fider"
 theme = "kube"
@@ -9,6 +9,7 @@ googleAnalytics = "UA-100812395-1"
   RSSLink = "/index.xml"
   author = "Fider" # add your company name
   email = "me@goenning.net"
+  images = [ "images/logo-small.png" ]
 
  [[menu.main]]
    name = "Docs"

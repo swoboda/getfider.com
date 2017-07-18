@@ -3,55 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/docs/hosting-instance/</loc>
+    <loc>http://getfider.com/docs/hosting-instance/</loc>
   </url>
   
   <url>
-    <loc>/blog/version-0.3.0/</loc>
+    <loc>http://getfider.com/blog/version-0.3.0/</loc>
     <lastmod>2017-07-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/docs/configuring-oauth/</loc>
-  </url>
-  
-  <url>
-    <loc>/docs/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/faq/</loc>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/how-to-enable-ssl/</loc>
-  </url>
-  
-  <url>
-    <loc>/categories/releases/</loc>
+    <loc>http://getfider.com/blog/</loc>
     <lastmod>2017-07-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>http://getfider.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://getfider.com/docs/configuring-oauth/</loc>
+  </url>
+  
+  <url>
+    <loc>http://getfider.com/docs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://getfider.com/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>http://getfider.com/</loc>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://getfider.com/docs/how-to-enable-ssl/</loc>
+  </url>
+  
+  <url>
+    <loc>http://getfider.com/categories/releases/</loc>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://getfider.com/tags/</loc>
     <priority>0</priority>
   </url>
   
