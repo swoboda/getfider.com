@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Fider"
 theme = "kube"
 publishDir = "docs"
-description = "Fider is an open source, cross platform and free to use customer feedback platform for companies and products"
+description = "Fider is a platform to share ideas and collect customer feedback"
 googleAnalytics = "UA-100812395-1"
 [Params]
   RSSLink = "/index.xml"

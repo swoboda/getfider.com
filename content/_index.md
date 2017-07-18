@@ -1,5 +1,5 @@
 +++
-description = "Fider is an open source, cross platform and free to use customer feedback platform for companies and products"
+description = "Fider is a platform to share ideas and collect customer feedback"
 title = "Get Feedback. Get Fider."
 draft = false
 +++
