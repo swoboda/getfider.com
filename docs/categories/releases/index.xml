@@ -6,10 +6,22 @@
     <description>Recent content in Releases on Fider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://getfider.com/categories/releases/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fider v0.4.0 Released</title>
+      <link>http://getfider.com/blog/version-0.4.0/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://getfider.com/blog/version-0.4.0/</guid>
+      <description>Fider v0.4.0 has just been released and includes following features:
+1. Redesign The home page has been redesigned to make better use of the large screens on desktops, while keeping it clean and simple on mobile and tablets.
+ Fider 0.3.0   Fider 0.4.0  2. Ideas filter While on home page you&amp;rsquo;ll now be able to filter and sort ideas based on commonly used criterias.
+This will help you quickly find mosted wanted ideas and those that are currently trending!</description>
+    </item>
     
     <item>
       <title>Fider v0.3.0 Released</title>
