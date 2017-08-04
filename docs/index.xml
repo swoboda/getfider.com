@@ -51,9 +51,11 @@ This will help you quickly find mosted wanted ideas and those that are currently
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://getfider.com/docs/configuring-oauth/</guid>
-      <description>Why is this required? Authentication is a key component of Fider platform. We take security and usability very seriously, which is why we&amp;rsquo;ve decided to go with Social sign in as the main authentication method. If you&amp;rsquo;ve just got started with Fider, you&amp;rsquo;ll need a Facebook and/or a Google app to get authentication to work.
+      <description>Why is this required? Authentication is a key component of Fider platform. We take security and usability very seriously, which is why we&amp;rsquo;ve decided to go with Social sign in as the main authentication method. If you&amp;rsquo;ve just got started with Fider, you&amp;rsquo;ll need a Facebook, Google and/or GitHub app to get authentication to work.
 But don&amp;rsquo;t worry, it&amp;rsquo;s a very easy and fast setup explained below.
-Facebook Pending&amp;hellip; https://developers.facebook.com/apps/</description>
+Facebook
+https://developers.facebook.com/apps/
+Google</description>
     </item>
     
     <item>
