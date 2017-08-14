@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Fider"
 theme = "kube"
 publishDir = "docs"
-description = "Fider is a platform to share ideas and collect customer feedback"
+description = "Open platform to collect and organize customer feedback"
 googleAnalytics = "UA-100812395-1"
 [Params]
   RSSLink = "/index.xml"
@@ -15,11 +15,23 @@ googleAnalytics = "UA-100812395-1"
    name = "Docs"
    weight = -100
    url = "/docs/"
+
  [[menu.main]]
    name = "Blog"
    weight = -100
    url = "/blog/"
-# [[menu.main]]
-#   name = "Faq"
-#   weight = -100
-#   url = "/faq/"
+
+ [[menu.footer]]
+   name = "Docs"
+   weight = -100
+   url = "/docs/"
+
+ [[menu.footer]]
+   name = "Blog"
+   weight = -100
+   url = "/blog/"
+
+ [[menu.footer]]
+   name = "GitHub"
+   weight = -100
+   url = "https://github.com/getfider/fider"
