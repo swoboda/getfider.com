@@ -2,6 +2,6 @@
 
 ## Welcome! 
 
-Fider is an open source, cross platform and free to use feedback platform for companies and products.
+Fider is an open platform to collect and organize customer feedback.
 
-For more information, please visit [http://getfider.com](http://getfider.com).
+Visit [http://getfider.com](http://getfider.com) for more information.
