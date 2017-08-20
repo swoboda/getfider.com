@@ -3,7 +3,7 @@ build:
 	hugo
 	cp CNAME docs
 
-server:
+watch:
 	hugo server
 
 .DEFAULT_GOAL := build
