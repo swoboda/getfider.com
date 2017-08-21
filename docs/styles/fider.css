@@ -1,10 +1,16 @@
-#features .row {
+.grid {
+  text-align: center;
+}
+.grid .row {
   padding-bottom: 32px;
   margin-bottom: 64px;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.15);
 }
-#features .row .col {
+.grid .row .col {
   padding: 10px;
+}
+.grid .row .col p {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 #hosting .hosting-grid {
@@ -12,13 +18,6 @@
   text-align: center;
 }
 
-#hosting {
-  text-align: center;
-}
-
-#hosting p {
-  color: rgba(0, 0, 0, 0.5);
-}
 
 #post-list #posts {
   text-align: left;
