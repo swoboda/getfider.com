@@ -12,24 +12,44 @@ googleAnalytics = "UA-100812395-1"
   images = [ "images/logo-small.png" ]
 
  [[menu.main]]
-   name = "Docs"
-   weight = -100
-   url = "/docs/"
+   name = "Demo"
+   weight = 100
+   url = "https://feedback.fider.io"
+
+ [[menu.main]]
+   name = "Features"
+   weight = 200
+   url = "/#features"
+
+ [[menu.main]]
+   name = "Hosting"
+   weight = 300
+   url = "/#hosting"
 
  [[menu.main]]
    name = "Blog"
-   weight = -100
-   url = "/blog/"
+   weight = 400
+   url = "/blog"
+
+ [[menu.main]]
+   name = "Docs"
+   weight = 500
+   url = "/docs"
+
+ [[menu.main]]
+   name = "Contact"
+   weight = 600
+   url = "mailto:admin@fider.io"
 
  [[menu.footer]]
    name = "Blog"
    weight = 100
-   url = "/blog/"
+   url = "/blog"
 
  [[menu.footer]]
    name = "Docs"
    weight = 200
-   url = "/docs/"
+   url = "/docs"
 
  [[menu.footer]]
    name = "Contact"

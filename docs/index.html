@@ -95,7 +95,29 @@ ga('send', 'pageview');
     </div><a data-component="toggleme" data-target="#top" href="#" id="nav-toggle"><i class="kube-menu"></i></a>
   </div>
 </div>
- </header>
+<div class="hide-sm" id="top">
+  <div id="top-brand">
+    <a href="/" title="home">Fider</a>
+  </div>
+  <nav id="top-nav-main">
+    <ul>
+    
+    
+      <li><a href="https://feedback.fider.io" >Demo</a></li>
+    
+      <li><a href="/#features" >Features</a></li>
+    
+      <li><a href="/#hosting" >Hosting</a></li>
+    
+      <li><a href="/blog" >Blog</a></li>
+    
+      <li><a href="/docs" >Docs</a></li>
+    
+      <li><a href="mailto:admin@fider.io" >Contact</a></li>
+    
+    </ul>
+  </nav>
+</div> </header>
   <main>
 
 <div id="main">
@@ -106,74 +128,60 @@ ga('send', 'pageview');
     <p>Let your customers share, vote and discuss on suggestions they have to make your product or company even better.</p>
   </div>
   <div id="action-buttons">
-    <a class="button primary big" href="https://demo.fider.io">Try the demo</a>
+    <a class="button primary big" href="https://feedback.fider.io">See it in action</a>
     <a class="button outline big" href="#hosting">Get started</a>
     <p> Easy. Fast. Free.</p>
 
   </div>
   
-  <div id="kube-features">
+  <div id="features">
     <div class="row gutters">
       <div class="col col-4 item">
         <figure>
-          <i class="fa fa-smile-o fa-3x" aria-hidden="true"></i>
+          <i style="color: #41c4e4;" class="fa fa-comments fa-3x" aria-hidden="true"></i>
+        </figure>
+        <h4>Customer based feedback</h4>
+        <p>Let your customers decide what you should work on. Use Fider to give voice to your community.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <i style="color: green;" class="fa fa-hand-o-up fa-3x" aria-hidden="true"></i>
+        </figure>
+        <h3>One click log in</h3>
+        <p>No forms. No hurdles. <br/> Just one click away from contributing! <br/> Social login via GitHub, Facebook and Google.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <i style="color: #5c5cff;" class="fa fa-smile-o fa-3x" aria-hidden="true"></i>
         </figure>
         <h3>Customer-First Experience</h3>
-        <p>We believe that an easy to use and clean feedback platform is the way to go to enable your customers to shares its ideas with you.</p>
-      </div>
-      <div class="col col-4 item">
-        <figure>
-          <i class="fa fa-bolt fa-3x" aria-hidden="true"></i>
-        </figure>
-        <h3>Lightning fast</h3>
-        <p>Because yes, performance is a feature. We think about performance in every aspect and take it very seriously. 
-          It makes users happier and your servers healthier.</p>
-      </div>
-      <div class="col col-4 item">
-        <figure>
-          <i class="fa fa-hand-o-up fa-3x" aria-hidden="true"></i>
-        </figure>
-        <h3>One click sign in</h3>
-        <p>No forms. No hurdles. Just one click away!</p>
+        <p>We believe that an easy to use and clean platform is the way to collect feedback faster.</p>
       </div>
     </div>
     <div class="row gutters">
       <div class="col col-4 item">
-        <h4>Community based feedback</h4>
-        <p>The best ideas come from multiple minds working together. Let your community contribute by improving existing ideas and you'll be surprised with what they can do together.</p>
+        <figure>
+          <i style="color: orange;" class="fa fa-bolt fa-3x" aria-hidden="true"></i>
+        </figure>
+        <h3>Lightning fast</h3>
+        <p>Because yes, performance is a feature. We think about performance in every aspect and take it very seriously. It makes users happier and servers healthier.</p>
       </div>
       <div class="col col-4 item">
+        <figure>
+          <i style="color: #c30072;" class="fa fa-tags fa-3x" aria-hidden="true"></i>
+        </figure>
         <h4>Organize the ideas</h4>
         <p>Hundreds of ideas require organization and you can do so by tagging ideas to make it easier to find, group and decide.</p>
         <span class="label tag custom">Planned Feature</span>
       </div>
       <div class="col col-4 item">
-          <h4>Keep it private</h4>
-          <p>Got an idea that is not yet ready to become public? Don't worry, we've got your back. Make it private and keep shaping it until it's ready to become public, or keep it private forever, the choice is yours.</p>
-          <span class="label tag custom">Planned Feature</span>
+        <figure>
+          <i style="color: #000;" class="fa fa-github fa-3x" aria-hidden="true"></i>
+        </figure>
+          <h4>Open Source</h4>
+          <p>Our code is 100% Open Source under the MIT license. Visit <a href="https://github.com/getfider/fider">getfider/fider</a> on GitHub.</p>
       </div>
-    </div>
-    <div class="row gutters">
-      <div class="col col-4 item">
-        <h4>Mobile-friendly Design</h4>
-        <p>Fider fully embraces latest and greatest tech.</p>
-      </div>
-      <div class="col col-4 item">
-        <h4>Cross-browser</h4>
-        <p>Fider works in all modern browsers, both desktop and mobile, including latest Chrome, Firefox, Safari, Opera, IE and Edge.</p>
-      </div>
-      <div class="col col-4 item">
-        <h4>License</h4>
-        <p>Fider licensed under <a href="http://opensource.org/licenses/MIT">MIT</a><br>
-      Fider is absolutely free for personal or commercial use.</p>
-      </div>
-    </div>
-    <div class="row gutters">
-      <div class="col col-12 item">
-        <div class="message focus open">
-          Tell us what to do next. Visit our own <a href="https://feedback.fider.io">Feedback for Fider</a> forum.
-        </div>
-      </div>
+      
     </div>
   </div>
 
@@ -190,8 +198,11 @@ ga('send', 'pageview');
             <i class="fa fa-cloud fa-3x" aria-hidden="true"></i>
           </figure>
           <h3>Hosted</h3>
-          <p>Sit back and relax. Let us do the hard work. Sign up now for your free Fider instance at <b>fider.io</b>.</p>
-          <a class="button primary big" href="https://login.fider.io/signup">Sign up</a> 
+          <p>
+            Sit back and relax. Let us do the hard work. <br/> 
+            Sign up now for free and get your own <br/>  <b>&lt;your-company&gt;.fider.io</b> site.
+          </p>
+          <a class="button default big" href="https://login.fider.io/signup">Sign up</a> 
         </div>
         <div class="col col-2 item"></div>
         <div class="col col-4 item">
@@ -199,7 +210,7 @@ ga('send', 'pageview');
             <i class="fa fa-server fa-3x" aria-hidden="true"></i>
           </figure>
           <h3>On-Premise</h3>
-          <p>Take total control over your instance. Download Fider and host it in your own servers.</p>
+          <p>Take total control over your instance and data. Download Fider and host it in your own servers.</p>
           <a class="button positive big" href="/docs/hosting-instance">Learn how</a>
         </div>
         <div class="col col-1 item"></div>
@@ -213,9 +224,9 @@ ga('send', 'pageview');
       <ul>
         <li><span>Fider</span></li>
         
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/blog">Blog</a></li>
         
-          <li><a href="/docs/">Docs</a></li>
+          <li><a href="/docs">Docs</a></li>
         
           <li><a href="mailto:admin@fider.io">Contact</a></li>
         
