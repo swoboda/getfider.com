@@ -6,7 +6,7 @@
     <description>Recent content in Get Feedback. Get Fider. on Fider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 Aug 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://getfider.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +20,17 @@
       <description>Prerequisites We highly recommend using Docker to host the application. It&#39;s the easiest and fastest way to get started and stay up to date with any future release.
 You&#39;ll also need a Postgres 9.6+ database, which could also be hosted on Docker, but that&#39;s not required.
 Installing and Running Step 1: Create a docker compose file  Create a file named docker-compose.yml and copy content below. Read comments for to know what settings are available.</description>
+    </item>
+    
+    <item>
+      <title>Fider v0.5.0 Released</title>
+      <link>http://getfider.com/blog/version-0.5.0/</link>
+      <pubDate>Thu, 31 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://getfider.com/blog/version-0.5.0/</guid>
+      <description>Fider v0.5.0 has just been released and includes following features:
+1. Redesign The goal of this redesign was a default theme that could be easily used any customer, without forcing the violet theme. We&amp;rsquo;ve also removed the focus from the vote counter to the content, while keeping it simple and clean.
+ Fider 0.4.0   Fider 0.5.0  2. Staff highlight Staff members will now have a different color on their names on discussions.</description>
     </item>
     
     <item>
