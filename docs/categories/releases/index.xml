@@ -6,10 +6,21 @@
     <description>Recent content in Releases on Fider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://getfider.com/categories/releases/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fider v0.6.0 Released</title>
+      <link>http://getfider.com/blog/version-0.6.0/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://getfider.com/blog/version-0.6.0/</guid>
+      <description>Fider v0.6.0 has just been released and includes following features:
+1. Sign in by e-mail We heard more than once that required users to use their Social accounts to sign in is not the way to go. Some people might not have these accounts or don&amp;rsquo;t want to link they because of privacy concers, which is totally understandable!
+With this in mind, we are happy to release v0.6.0 with a very simple sign in by e-mail process.</description>
+    </item>
     
     <item>
       <title>Fider v0.5.0 Released</title>

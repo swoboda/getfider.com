@@ -17,8 +17,10 @@
       
       <guid>http://getfider.com/docs/hosting-instance/</guid>
       <description>Prerequisites We highly recommend using Docker to host the application. It&#39;s the easiest and fastest way to get started and stay up to date with any future release.
-You&#39;ll also need a Postgres 9.6+ database, which could also be hosted on Docker, but that&#39;s not required.
-Installing and Running Step 1: Create a docker compose file  Create a file named docker-compose.yml and copy content below. Read comments for to know what settings are available.</description>
+You&#39;ll also need:
+  PostgreSQL 9.6 Database This tutorial uses a Docker PostgreSQL image for the sake of simplicity.
+  E-mail sender service: You can choose to use either a SMTP Server or a Mailgun account.
+  Installing and Running Step 1: Create a docker compose file  Create a file named docker-compose.</description>
     </item>
     
     <item>
@@ -27,11 +29,11 @@ Installing and Running Step 1: Create a docker compose file  Create a file named
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://getfider.com/docs/configuring-oauth/</guid>
-      <description>Why is this required? Authentication is a key component of Fider platform. We take security and usability very seriously, which is why we&amp;rsquo;ve decided to go with Social sign in as the main authentication method. If you&amp;rsquo;ve just got started with Fider, you&amp;rsquo;ll need a Facebook, Google and/or GitHub app to get authentication to work.
-But don&amp;rsquo;t worry, it&amp;rsquo;s a very easy and fast setup explained below.
-Facebook
-https://developers.facebook.com/apps/
-Google</description>
+      <description>Configuring Social OAuth Authentication is a key component of Fider platform. We take security and usability very seriously, which is why we&amp;rsquo;ve decided to go with Social sign in as the main authentication method.
+Setup is very easy and fast.
+Facebook https://developers.facebook.com/apps/
+Google https://console.developers.google.com
+GitHub https://github.com/settings/applications/new</description>
     </item>
     
     <item>
