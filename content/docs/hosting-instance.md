@@ -66,7 +66,7 @@ services:
       JWT_SECRET: tXQhvSMWMS11qZ9euEhE6lf2ferf0FR6RYGd8iMXiTxxXtJ1XDVdTXPaLtV12ZGp
       
       # From which account e-mails will be sent
-      NOREPLY_EMAIL: noreploy@yourdomain.com
+      NOREPLY_EMAIL: noreply@yourdomain.com
 
       ###
       # E-MAIL
@@ -99,7 +99,7 @@ services:
       # OAUTH_GOOGLE_SECRET: &lt;google_app_secret&gt;
 
       # GitHub
-      # OAUTH_GITHUB_APPID: &lt;github_client_id&gt;
+      # OAUTH_GITHUB_CLIENTID: &lt;github_client_id&gt;
       # OAUTH_GITHUB_SECRET: &lt;github_secret&gt;
 
     depends_on:

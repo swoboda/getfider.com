@@ -31,9 +31,7 @@ You&#39;ll also need:
       <guid>http://getfider.com/docs/configuring-oauth/</guid>
       <description>Configuring Social OAuth Authentication is a key component of Fider platform. We take security and usability very seriously, which is why we&amp;rsquo;ve decided to go with Social sign in as the main authentication method.
 Setup is very easy and fast.
-Facebook https://developers.facebook.com/apps/
-Google https://console.developers.google.com
-GitHub https://github.com/settings/applications/new</description>
+Facebook  Create a facebook app at https://developers.facebook.com/apps. Set OAUTH_FACEBOOK_APPID and OAUTH_FACEBOOK_SECRET environment variables.  Google  Create a facebook app at https://console.developers.google.com. Callback URL for Google apps is http://&amp;lt;yoursite.com&amp;gt;/oauth/google/callback. Note that it can be either http or https, that depends on your setup.</description>
     </item>
     
     <item>
