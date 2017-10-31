@@ -6,7 +6,7 @@
     <description>Recent content in Get Feedback. Get Fider. on Fider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://getfider.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -22,6 +22,17 @@ You&#39;ll also need:
   PostgreSQL 9.6 Database This tutorial uses a Docker PostgreSQL image for the sake of simplicity.
   E-mail sender service: You can choose to use either a SMTP Server or a Mailgun account.
   Installing and Running Step 1: Create a docker compose file  Create a file named docker-compose.</description>
+    </item>
+    
+    <item>
+      <title>Fider v0.7.0 Released</title>
+      <link>http://getfider.com/blog/version-0.7.0/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://getfider.com/blog/version-0.7.0/</guid>
+      <description>Fider v0.7.0 has just been released and includes following features:
+1. Add/Remove Members This feature has been suggested during the month and received a fews votes on a short amount of time. This is a really basic feature that we were missing and now we&amp;rsquo;re happy to ship the first version of it on this release.
+  2. Technical Improvements This release was all about Technical Improvements. We&amp;rsquo;ve removed echo, updated React to v16, increased code coverage, removed other dependencies and refactored a lot of code.</description>
     </item>
     
     <item>
