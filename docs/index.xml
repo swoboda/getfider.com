@@ -6,7 +6,7 @@
     <description>Recent content in Get Feedback. Get Fider. on Fider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://getfider.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -22,6 +22,18 @@ You&#39;ll also need:
   PostgreSQL 9.6 Database This tutorial uses a Docker PostgreSQL image for the sake of simplicity.
   E-mail sender service: You can choose to use either a SMTP Server or a Mailgun account.
   Installing and Running Step 1: Create a docker compose file  Create a file named docker-compose.</description>
+    </item>
+    
+    <item>
+      <title>Fider v0.8.0 Released</title>
+      <link>http://getfider.com/blog/version-0.8.0/</link>
+      <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://getfider.com/blog/version-0.8.0/</guid>
+      <description>Fider v0.8.0 has just been released and includes following features:
+1. Assign tag to posts Our recent most wanted feature has been implemented. Starting from this release, administrators are able to create tags and assign tags to posts.
+  Tags can be either Public or Private. Private tags are especially helpful for administrators to organize their posts without leaking any information publicly.
+Tags can also be used to filter posts, alongside with the new free text search box.</description>
     </item>
     
     <item>
