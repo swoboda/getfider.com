@@ -37,6 +37,11 @@ googleAnalytics = "UA-100812395-1"
    url = "mailto:admin@fider.io"
 
  [[menu.footer]]
-   name = "GitHub"
+   name = "Status"
    weight = 400
+   url = "https://status.fider.io/"
+
+ [[menu.footer]]
+   name = "GitHub"
+   weight = 500
    url = "https://github.com/getfider/fider"
