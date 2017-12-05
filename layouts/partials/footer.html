@@ -1,10 +1,8 @@
-  <footer id="footer">
-    <nav>
-      <ul>
-        <li><span>Fider</span></li>
-        {{ range .Site.Menus.footer }}
-          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-        {{end}}
-      </ul>
-    </nav>
-  </footer>
+<nav>
+  <ul>
+    <li><span>2016-2017 Fider</span></li>
+    {{ range .Site.Menus.footer }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{end}}
+  </ul>
+</nav>

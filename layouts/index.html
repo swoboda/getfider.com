@@ -4,22 +4,16 @@
 
 <div id="main">
   <div id="hero">
-    <span><img src="/images/logo-100x100.png" class="logo"/></span>
     <h1>{{ .Title }}</h1>
     <span>{{ .Description }}</span>
     <p>Let your customers share, vote and discuss on suggestions they have to make your product or company even better.</p>
   </div>
+
   <div id="action-buttons">
     <a class="button primary big" href="https://demo.fider.io">Try the demo</a>
     <a class="button outline big" href="#hosting">Get started</a>
-    <p><!--Version 0.3.0 from July 1, 2017. <br/>--> Easy. Fast. Free.</p>
-
   </div>
-  <!--
-    <div class="message focus" data-component="message"> <span class="close small">
-      We can help your company know more what your customers need
-    </span></div>
-  -->
+  
   <div id="features" class="grid">
     <div class="row gutters">
       <div class="col col-4 item">
@@ -57,7 +51,7 @@
           <i style="color: #c30072;" class="fa fa-tags fa-3x" aria-hidden="true"></i>
         </figure>
         <h4>Organize the ideas</h4>
-        <p>Hundreds of ideas require organization and you can do so by tagging ideas to make it easier to find, group and decide.</p>
+        <p>Hundreds of ideas require organization and you can do so by tagging them to make it easier to find, group and decide.</p>
       </div>
       <div class="col col-4 item">
         <figure>
@@ -72,33 +66,44 @@
 
   <div id="hosting" class="grid"> 
     <h3>Are you ready to give it a try?</h3>
-    <p>We got two hosting flavours available for you.</h3>
+    <p>We got two hosting options for you</h3>
 
     <div class="hosting-grid">
       <div class="row gutters">
-        <div class="col col-1 item"></div>
-        <div class="col col-4 item">
-          <figure>
-            <i class="fa fa-cloud fa-3x" aria-hidden="true"></i>
-          </figure>
-          <h3>Hosted</h3>
-          <p>
-            Sit back and relax. Let us do the hard work. <br/> 
-            Sign up now for free and get your own <br/>  <b>&lt;your-company&gt;.fider.io</b> site.
-          </p>
-          <a class="button default big" href="https://login.fider.io/signup">Sign up</a> 
-        </div>
         <div class="col col-2 item"></div>
+
         <div class="col col-4 item">
-          <figure>
-            <i class="fa fa-server fa-3x" aria-hidden="true"></i>
-          </figure>
-          <h3>On-Premise</h3>
-          <p>Take total control over your instance and data. Download Fider and host it in your own servers.</p>
-          <a class="button positive big" href="/docs/hosting-instance">Learn how</a>
+          <div class="option">
+            <div class="header">
+              <figure>
+                <i class="fa fa-cloud fa-3x" aria-hidden="true"></i>
+              </figure>
+              <h3>Hosted</h3>
+            </div>
+            <p class="description">
+                Sit back and relax. Let us do the hard work.
+                Sign up now for free and start using it in less than 60 seconds.
+            </p>
+            <a class="button default big" href="https://login.fider.io/signup">Sign up</a>
+          </div>
         </div>
-        <div class="col col-1 item"></div>
+
+        <div class="col col-4 item">
+          <div class="option">
+            <div class="header">
+              <figure>
+                <i class="fa fa-server fa-3x" aria-hidden="true"></i>
+              </figure>
+              <h3>On-Premises</h3>
+            </div>
+            <p class="description">Take total control over your instance and data. Because Fider is Open Source, you can download and host it in your own servers.</p>
+            <a class="button positive big" href="/docs/hosting-instance">Learn how</a>
+          </div>
+        </div>
+
+        <div class="col col-2 item"></div>
       </div>
+
     </div>
   </div>
 </div>
