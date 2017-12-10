@@ -12,7 +12,7 @@ layout = "privacy"
 
 Fider was born on December/2016 as a simple hobby project to learn a few new technologies. The goal was to create a simple and free alternative to some very expensive SaaS offerings available.
 
-The code is on [GitHub](github.com/getfider/fider), it has GPL-3.0 license, and is accepting contributions.
+The code is on [GitHub](https://github.com/getfider/fider), it has GPL-3.0 license, and is accepting contributions.
 
 ##### What about the Hosted Service?
 
