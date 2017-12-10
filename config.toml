@@ -7,8 +7,8 @@ description = "Open platform to collect and organize customer feedback"
 googleAnalytics = "UA-100812395-1"
 [Params]
   RSSLink = "/index.xml"
-  author = "Fider" # add your company name
-  email = "me@goenning.net"
+  author = "Fider"
+  email = "admin@fider.io"
   images = [ "images/logo-small.png" ]
 
  [[menu.main]]
@@ -21,20 +21,25 @@ googleAnalytics = "UA-100812395-1"
    weight = 200
    url = "/docs"
 
+ [[menu.main]]
+   name = "About"
+   weight = 300
+   url = "/about"
+
+ [[menu.footer]]
+   name = "About"
+   weight = 100
+   url = "/about"
+
  [[menu.footer]]
    name = "Blog"
-   weight = 100
+   weight = 200
    url = "/blog"
 
  [[menu.footer]]
    name = "Docs"
-   weight = 200
-   url = "/docs"
-
- [[menu.footer]]
-   name = "Contact"
    weight = 300
-   url = "mailto:admin@fider.io"
+   url = "/docs"
 
  [[menu.footer]]
    name = "Status"
@@ -45,3 +50,8 @@ googleAnalytics = "UA-100812395-1"
    name = "GitHub"
    weight = 500
    url = "https://github.com/getfider/fider"
+
+ [[menu.footer]]
+   name = "Privacy"
+   weight = 600
+   url = "/privacy"

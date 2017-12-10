@@ -1,7 +1,6 @@
 {{ define "title"}} {{ .Site.Title}} {{end}}
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
-
 <div id="main">
   <div id="hero">
     <h1>{{ .Title }}</h1>
@@ -15,58 +14,88 @@
   </div>
   
   <div id="features" class="grid">
-    <div class="row gutters">
-      <div class="col col-4 item">
-        <figure>
-          <i style="color: #41c4e4;" class="fa fa-comments fa-3x" aria-hidden="true"></i>
-        </figure>
-        <h4>Customer based feedback</h4>
+    <h2>Features</h2>
+
+    <div class="row align-middle">
+      <div class="col col-4 text">
+        <h3>Share ideas, vote and discuss</h3>
         <p>Let your customers decide what you should work on. Use Fider to give voice to your community.</p>
       </div>
-      <div class="col col-4 item">
-        <figure>
-          <i style="color: green;" class="fa fa-hand-o-up fa-3x" aria-hidden="true"></i>
-        </figure>
-        <h3>One click log in</h3>
-        <p>No forms. No hurdles. <br/> Just one click away from contributing! <br/> Social login via GitHub, Facebook and Google.</p>
-      </div>
-      <div class="col col-4 item">
-        <figure>
-          <i style="color: #5c5cff;" class="fa fa-smile-o fa-3x" aria-hidden="true"></i>
-        </figure>
-        <h3>Customer-First Experience</h3>
-        <p>We believe that an easy to use and clean platform is the way to collect feedback faster.</p>
+      <div class="col col-8">
+        <img src="/images/features/feature1.png" />
       </div>
     </div>
-    <div class="row gutters">
-      <div class="col col-4 item">
+    
+    <div class="row align-middle">
+      <div class="col col-4 text">
+        <h3>Keep everyone informed</h3>
+        <p>Whenever you decide to start, complete or decline an idea, send an update on Fider so that everyone is aware of what's going on. </p>
+      </div>
+      <div class="col col-8">
+        <img src="/images/features/feature5.png" />
+      </div>
+    </div>
+
+    <div class="row align-middle">
+      <div class="col col-4 text">
+        <h3>One click sign in</h3>
+        <p>No forms. No hurdles. <br/> Just one click away from contributing! <br/> Social login via GitHub, Facebook and Google.</p>
+      </div>
+      <div class="col col-8">
+        <img src="/images/features/feature2.png" />
+      </div>
+    </div>
+
+    <div class="row align-middle">
+      <div class="col col-4 text">
+        <h3>Organize your content</h3>
+        <p>Hundreds of ideas require organization and you can do so by tagging them to make it easier to find, group and decide.</p>
+        <p>Each tag can be either <strong>Public</strong> or <strong>Private</strong>.</p>
+      </div>
+      <div class="col col-8">
+        <img src="/images/features/feature3.gif" />
+      </div>
+    </div>
+    
+    <div class="row align-middle">
+      <div class="col col-4 text">
+        <h3>Your own domain, secure</h3>
+        <p>When using our hosted service, you can use your own domain and get a free TLS certificate to help keep it secure.</p>
+      </div>
+      <div class="col col-8">
+        <img src="/images/features/feature4.png" />
+      </div>
+    </div>
+    
+    <div class="row align-middle">
+      <div class="col col-3">
         <figure>
           <i style="color: orange;" class="fa fa-bolt fa-3x" aria-hidden="true"></i>
         </figure>
         <h3>Lightning fast</h3>
-        <p>Because yes, performance is a feature. We think about performance in every aspect and take it very seriously. It makes users happier and servers healthier.</p>
+        <p>Performance a feature and we take every aspect of it very seriously. Happier visitors. Healthier servers.</p>
       </div>
-      <div class="col col-4 item">
+      <div class="col col-1"></div>
+      <div class="col col-4">
         <figure>
-          <i style="color: #c30072;" class="fa fa-tags fa-3x" aria-hidden="true"></i>
+          <i style="color: #c30072;" class="fa fa-heart fa-3x" aria-hidden="true"></i>
         </figure>
-        <h4>Organize the ideas</h4>
-        <p>Hundreds of ideas require organization and you can do so by tagging them to make it easier to find, group and decide.</p>
+        <h4>Customer-First Experience</h4>
+        <p>We believe that an easy to use and clean platform is the way to collect feedback faster.</p>
       </div>
-      <div class="col col-4 item">
+      <div class="col col-1"></div>
+      <div class="col col-3">
         <figure>
           <i style="color: #000;" class="fa fa-github fa-3x" aria-hidden="true"></i>
         </figure>
-          <h4>Open Source</h4>
-          <p>Our code is 100% Open Source. <br/>
-            Visit <a href="https://github.com/getfider/fider">getfider/fider</a> on GitHub.</p>
+        <h4>Open Source</h4>
+        <p>Our code is 100% Open Source. <br/> Visit <a href="https://github.com/getfider/fider">getfider/fider</a> on GitHub.</p>
       </div>
     </div>
   </div>
 
   <div id="hosting" class="grid"> 
-    <h3>Are you ready to give it a try?</h3>
-    <p>We got two hosting options for you</h3>
+    <h2>Are you ready to give it a try?</h2>
 
     <div class="hosting-grid">
       <div class="row gutters">
@@ -79,6 +108,7 @@
                 <i class="fa fa-cloud fa-3x" aria-hidden="true"></i>
               </figure>
               <h3>Hosted</h3>
+              <h6 style="color: green">Free!</h6>
             </div>
             <p class="description">
                 Sit back and relax. Let us do the hard work.
@@ -95,6 +125,7 @@
                 <i class="fa fa-server fa-3x" aria-hidden="true"></i>
               </figure>
               <h3>On-Premises</h3>
+              <h6 style="color: green">Free!</h6>
             </div>
             <p class="description">Take total control over your instance and data. Because Fider is Open Source, you can download and host it in your own servers.</p>
             <a class="button positive big" href="/docs/hosting-instance">Learn how</a>

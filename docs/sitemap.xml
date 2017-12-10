@@ -37,6 +37,10 @@
   </url>
   
   <url>
+    <loc>http://getfider.com/about/</loc>
+  </url>
+  
+  <url>
     <loc>http://getfider.com/blog/</loc>
     <lastmod>2017-11-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -67,6 +71,10 @@
   
   <url>
     <loc>http://getfider.com/docs/how-to-enable-ssl/</loc>
+  </url>
+  
+  <url>
+    <loc>http://getfider.com/privacy/</loc>
   </url>
   
   <url>

@@ -42,8 +42,10 @@ header #top-brand span {
   display: block;
 }
 
-#footer nav ul li {
-  float: left;
+@media (min-width: 767px) {
+  #footer nav ul li {
+    float: left;
+  }
 }
 
 /* HOSTING */
@@ -92,4 +94,29 @@ header #top-brand span {
 
 figure img {
   border: 10px solid gainsboro;
+}
+
+/* FEATURES */
+
+#features .text {
+  text-align: left;
+  padding-right: 20px;
+}
+
+#features .col img {
+  -webkit-box-shadow: 0 10px 10px 0 #cfcfcf;
+  -o-box-shadow: 0 10px 10px 0 #cfcfcf;
+  box-shadow: 0 10px 10px 0 #cfcfcf;
+}
+
+/* PRIVACY POLICY */
+
+#privacy {
+  margin: 24px;
+}
+
+#privacy h1 {
+  font-size: 34px;
+  line-height: 72px;
+  font-weight: 900;
 }
