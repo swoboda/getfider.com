@@ -180,10 +180,8 @@ services:
     restart: always
     image: getfider/fider:stable
     ports:
-      - "9999:8080"
+      - "9999:3000"
     environment:
-      PORT: 8080
-
       # Use production for best performance or development for more verbose logging
       GO_ENV: production
       
@@ -222,7 +220,7 @@ $ docker-compose up
 
 <p>You might see some messages like <code>Error: dial tcp 172.19.0.2:5432: getsockopt: connection refused</code>. Don't panic, that's expected. That might happen because the application is trying to start while the database is still initializing.</p>
 
-<p>The message <code>http server started on [::]:8080</code> means everything went well and you're ready to go.</p>
+<p>The message <code>http server started on [::]:3000</code> means everything went well and you're ready to go.</p>
 
 <p>Just open your favorite browser and navigate to <a href="http://localhost:9999">http://localhost:9999</a>. You should see a page like the following.</p>
 
