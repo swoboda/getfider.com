@@ -6,10 +6,55 @@
     <description>Recent content in Releases on Fider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://getfider.com/categories/releases/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fider v0.8.0 Released</title>
+      <link>http://getfider.com/blog/version-0.8.0/</link>
+      <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://getfider.com/blog/version-0.8.0/</guid>
+      <description>Fider v0.8.0 has just been released and includes following features:
+1. Assign tag to posts Our recent most wanted feature has been implemented. Starting from this release, administrators are able to create tags and assign tags to posts.
+  Tags can be either Public or Private. Private tags are especially helpful for administrators to organize their posts without leaking any information publicly.
+Tags can also be used to filter posts, alongside with the new free text search box.</description>
+    </item>
+    
+    <item>
+      <title>Fider v0.7.0 Released</title>
+      <link>http://getfider.com/blog/version-0.7.0/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://getfider.com/blog/version-0.7.0/</guid>
+      <description>Fider v0.7.0 has just been released and includes following features:
+1. Add/Remove Members This feature has been suggested during the month and received a fews votes on a short amount of time. This is a really basic feature that we were missing and now we&amp;rsquo;re happy to ship the first version of it on this release.
+  2. Technical Improvements This release was all about Technical Improvements. We&amp;rsquo;ve removed echo, updated React to v16, increased code coverage, removed other dependencies and refactored a lot of code.</description>
+    </item>
+    
+    <item>
+      <title>Fider v0.6.0 Released</title>
+      <link>http://getfider.com/blog/version-0.6.0/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://getfider.com/blog/version-0.6.0/</guid>
+      <description>Fider v0.6.0 has just been released and includes following features:
+1. Sign in by e-mail We heard more than once that required users to use their Social accounts to sign in is not the way to go. Some people might not have these accounts or don&amp;rsquo;t want to link they because of privacy concers, which is totally understandable!
+With this in mind, we are happy to release v0.6.0 with a very simple sign in by e-mail process.</description>
+    </item>
+    
+    <item>
+      <title>Fider v0.5.0 Released</title>
+      <link>http://getfider.com/blog/version-0.5.0/</link>
+      <pubDate>Thu, 31 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://getfider.com/blog/version-0.5.0/</guid>
+      <description>Fider v0.5.0 has just been released and includes following features:
+1. Redesign The goal of this redesign was a default theme that could be easily used any customer, without forcing the violet theme. We&amp;rsquo;ve also removed the focus from the vote counter to the content, while keeping it simple and clean.
+ Fider 0.4.0   Fider 0.5.0  2. Staff highlight Staff members will now have a different color on their names on discussions.</description>
+    </item>
     
     <item>
       <title>Fider v0.4.0 Released</title>

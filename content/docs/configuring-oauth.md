@@ -7,20 +7,32 @@ toc = true
 bref = "Learn how to create Facebook and Google sign in apps and use it in your Fider instance"
 +++
 
-<h3 class="section-head" id="h-why-required"><a href="#h-why-required">Why is this required?</a></h3>
+<h3 class="section-head" id="h-why-required"><a href="#h-why-required">Configuring Social OAuth</a></h3>
 
-Authentication is a key component of Fider platform. We take security and usability very seriously, which is why we've decided to go with Social sign in as the main authentication method. If you've just got started with Fider, you'll need a Facebook, Google and/or GitHub app to get authentication to work.
+Authentication is a key component of Fider platform. We take security and usability very seriously, which is why we've decided to go with Social sign in as the main authentication method.
 
-But don't worry, it's a very easy and fast setup explained below.
+Setup is very easy and fast.
 
-<h4 class="section-head" id="h-facebook"><a href="#h-facebook">Facebook</a></h3>
+<h3 class="section-head" id="h-facebook"><a href="#h-facebook">Facebook</a></h3>
 
-https://developers.facebook.com/apps/
+<ol>
+  <li>Create a facebook app at <a href="https://developers.facebook.com/apps">https://developers.facebook.com/apps</a>.
+  <li>Set <code>OAUTH_FACEBOOK_APPID</code> and <code>OAUTH_FACEBOOK_SECRET</code> environment variables.</li>
+</ol>
 
-<h4 class="section-head" id="h-google"><a href="#h-google">Google</a></h3>
+<h3 class="section-head" id="h-google"><a href="#h-google">Google</a></h3>
 
-https://console.developers.google.com
+<ol>
+  <li>Create a facebook app at <a href="https://console.developers.google.com">https://console.developers.google.com</a>.
+  <li>Callback URL for Google apps is <code>http://&lt;yoursite.com&gt;/oauth/google/callback</code>. Note that it can be either <code>http</code> or <code>https</code>, that depends on your setup.
+  <li>Set <code>OAUTH_GOOGLE_CLIENTID</code> and <code>OAUTH_GOOGLE_SECRET</code> environment variables.</li>
+</ol>
 
-<h4 class="section-head" id="h-github"><a href="#h-github">GitHub</a></h3>
+<h3 class="section-head" id="h-github"><a href="#h-github">GitHub</a></h3>
 
-https://github.com/settings/applications/new
+<ol>
+  <li>Create a facebook app at <a href="https://github.com/settings/applications/new">https://github.com/settings/applications/new</a>.
+  <li>Callback URL for GitHub apps is <code>http://&lt;yoursite.com&gt;/oauth/github/callback</code>. Note that it can be either <code>http</code> or <code>https</code>, that depends on your setup.
+  <li>Set <code>OAUTH_GITHUB_CLIENTID</code> and <code>OAUTH_GITHUB_SECRET</code> environment variables.</li>
+</ol>
+

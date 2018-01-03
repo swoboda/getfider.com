@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-  <meta name="generator" content="Hugo 0.24.1" />
+  <meta name="generator" content="Hugo 0.26" />
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -94,23 +94,20 @@ ga('send', 'pageview');
 </div>
 <div class="hide-sm" id="top">
   <div id="top-brand">
-    <a href="/" title="home">Fider</a>
+    <a href="/" title="home">
+      <img src="/images/logo-100x100.png" class="logo"/>
+      <span>Fider</span>
+    </a>
   </div>
   <nav id="top-nav-main">
     <ul>
     
     
-      <li><a href="https://feedback.fider.io" >Demo</a></li>
-    
-      <li><a href="/#features" >Features</a></li>
-    
-      <li><a href="/#hosting" >Hosting</a></li>
-    
       <li><a href="/blog" >Blog</a></li>
     
       <li><a href="/docs" >Docs</a></li>
     
-      <li><a href="mailto:admin@fider.io" >Contact</a></li>
+      <li><a href="/about" >About</a></li>
     
     </ul>
   </nav>
@@ -147,30 +144,41 @@ headingSelector: 'h3'
 
 
 
-    <h3 class="section-head" id="h-why-required"><a href="#h-why-required">Why is this required?</a></h3>
+    <h3 class="section-head" id="h-why-required"><a href="#h-why-required">Configuring Social OAuth</a></h3>
 
-<p>Authentication is a key component of Fider platform. We take security and usability very seriously, which is why we&rsquo;ve decided to go with Social sign in as the main authentication method. If you&rsquo;ve just got started with Fider, you&rsquo;ll need a Facebook, Google and/or GitHub app to get authentication to work.</p>
+<p>Authentication is a key component of Fider platform. We take security and usability very seriously, which is why we&rsquo;ve decided to go with Social sign in as the main authentication method.</p>
 
-<p>But don&rsquo;t worry, it&rsquo;s a very easy and fast setup explained below.</p>
+<p>Setup is very easy and fast.</p>
 
-<p><h4 class="section-head" id="h-facebook"><a href="#h-facebook">Facebook</a></h3></p>
+<h3 class="section-head" id="h-facebook"><a href="#h-facebook">Facebook</a></h3>
 
-<p><a href="https://developers.facebook.com/apps/">https://developers.facebook.com/apps/</a></p>
+<ol>
+  <li>Create a facebook app at <a href="https://developers.facebook.com/apps">https://developers.facebook.com/apps</a>.
+  <li>Set <code>OAUTH_FACEBOOK_APPID</code> and <code>OAUTH_FACEBOOK_SECRET</code> environment variables.</li>
+</ol>
 
-<p><h4 class="section-head" id="h-google"><a href="#h-google">Google</a></h3></p>
+<h3 class="section-head" id="h-google"><a href="#h-google">Google</a></h3>
 
-<p><a href="https://console.developers.google.com">https://console.developers.google.com</a></p>
+<ol>
+  <li>Create a facebook app at <a href="https://console.developers.google.com">https://console.developers.google.com</a>.
+  <li>Callback URL for Google apps is <code>http://&lt;yoursite.com&gt;/oauth/google/callback</code>. Note that it can be either <code>http</code> or <code>https</code>, that depends on your setup.
+  <li>Set <code>OAUTH_GOOGLE_CLIENTID</code> and <code>OAUTH_GOOGLE_SECRET</code> environment variables.</li>
+</ol>
 
-<p><h4 class="section-head" id="h-github"><a href="#h-github">GitHub</a></h3></p>
+<h3 class="section-head" id="h-github"><a href="#h-github">GitHub</a></h3>
 
-<p><a href="https://github.com/settings/applications/new">https://github.com/settings/applications/new</a></p>
+<ol>
+  <li>Create a facebook app at <a href="https://github.com/settings/applications/new">https://github.com/settings/applications/new</a>.
+  <li>Callback URL for GitHub apps is <code>http://&lt;yoursite.com&gt;/oauth/github/callback</code>. Note that it can be either <code>http</code> or <code>https</code>, that depends on your setup.
+  <li>Set <code>OAUTH_GITHUB_CLIENTID</code> and <code>OAUTH_GITHUB_SECRET</code> environment variables.</li>
+</ol>
 
 
     
     </div>
     </div>
 </main>
-  <footer></footer>
+  <footer id="footer"></footer>
 
 
   <script src="/js/kube.js" type="text/javascript">

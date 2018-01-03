@@ -7,56 +7,51 @@ description = "Open platform to collect and organize customer feedback"
 googleAnalytics = "UA-100812395-1"
 [Params]
   RSSLink = "/index.xml"
-  author = "Fider" # add your company name
-  email = "me@goenning.net"
+  author = "Fider"
+  email = "admin@fider.io"
   images = [ "images/logo-small.png" ]
 
  [[menu.main]]
-   name = "Demo"
-   weight = 100
-   url = "https://feedback.fider.io"
-
- [[menu.main]]
-   name = "Features"
-   weight = 200
-   url = "/#features"
-
- [[menu.main]]
-   name = "Hosting"
-   weight = 300
-   url = "/#hosting"
-
- [[menu.main]]
    name = "Blog"
+   weight = 100
+   url = "/blog"
+
+ [[menu.main]]
+   name = "Docs"
+   weight = 200
+   url = "/docs"
+
+ [[menu.main]]
+   name = "About"
+   weight = 300
+   url = "/about"
+
+ [[menu.footer]]
+   name = "About"
+   weight = 100
+   url = "/about"
+
+ [[menu.footer]]
+   name = "Blog"
+   weight = 200
+   url = "/blog"
+
+ [[menu.footer]]
+   name = "Docs"
+   weight = 300
+   url = "/docs"
+
+ [[menu.footer]]
+   name = "Status"
    weight = 400
-   url = "/blog"
-
- [[menu.main]]
-   name = "Docs"
-   weight = 500
-   url = "/docs"
-
- [[menu.main]]
-   name = "Contact"
-   weight = 600
-   url = "mailto:admin@fider.io"
-
- [[menu.footer]]
-   name = "Blog"
-   weight = 100
-   url = "/blog"
-
- [[menu.footer]]
-   name = "Docs"
-   weight = 200
-   url = "/docs"
-
- [[menu.footer]]
-   name = "Contact"
-   weight = 300
-   url = "mailto:admin@fider.io"
+   url = "https://status.fider.io/"
 
  [[menu.footer]]
    name = "GitHub"
-   weight = 400
+   weight = 500
    url = "https://github.com/getfider/fider"
+
+ [[menu.footer]]
+   name = "Privacy"
+   weight = 600
+   url = "/privacy"
