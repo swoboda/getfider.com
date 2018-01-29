@@ -6,7 +6,7 @@ description = "We're happy to announce that version 0.8.0 is now released"
 author = "goenning"
 +++
 
-Fider v0.8.0 has just been released and includes following features:
+Fider v0.8.0 has just been released and includes the following new features:
 
 ### 1. Assign tag to posts
 

@@ -6,7 +6,7 @@
     <description>Recent content in Get Feedback. Get Fider. on Fider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://getfider.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -25,12 +25,23 @@ You&#39;ll also need:
     </item>
     
     <item>
+      <title>Fider v0.9.0 Released</title>
+      <link>http://getfider.com/blog/version-0.9.0/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://getfider.com/blog/version-0.9.0/</guid>
+      <description>Fider v0.9.0 has just been released and includes the following new features.
+1. Merge duplicate ideas It&amp;rsquo;s now possible to mark an idea as a Duplicate of another idea. This is particular useful to clean up the ideas list when someone shares an idea that has already been posted before.
+When an idea is marked as a duplicate, it will show a link to the original idea and all its votes will be added to it as well.</description>
+    </item>
+    
+    <item>
       <title>Fider v0.8.0 Released</title>
       <link>http://getfider.com/blog/version-0.8.0/</link>
       <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>http://getfider.com/blog/version-0.8.0/</guid>
-      <description>Fider v0.8.0 has just been released and includes following features:
+      <description>Fider v0.8.0 has just been released and includes the following new features:
 1. Assign tag to posts Our recent most wanted feature has been implemented. Starting from this release, administrators are able to create tags and assign tags to posts.
   Tags can be either Public or Private. Private tags are especially helpful for administrators to organize their posts without leaking any information publicly.
 Tags can also be used to filter posts, alongside with the new free text search box.</description>
@@ -42,9 +53,9 @@ Tags can also be used to filter posts, alongside with the new free text search b
       <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>http://getfider.com/blog/version-0.7.0/</guid>
-      <description>Fider v0.7.0 has just been released and includes following features:
+      <description>Fider v0.7.0 has just been released and includes the following new features:
 1. Add/Remove Members This feature has been suggested during the month and received a fews votes on a short amount of time. This is a really basic feature that we were missing and now we&amp;rsquo;re happy to ship the first version of it on this release.
-  2. Technical Improvements This release was all about Technical Improvements. We&amp;rsquo;ve removed echo, updated React to v16, increased code coverage, removed other dependencies and refactored a lot of code.</description>
+  2. Technical Improvements This release was all about Technical Improvements.</description>
     </item>
     
     <item>
@@ -53,9 +64,9 @@ Tags can also be used to filter posts, alongside with the new free text search b
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>http://getfider.com/blog/version-0.6.0/</guid>
-      <description>Fider v0.6.0 has just been released and includes following features:
+      <description>Fider v0.6.0 has just been released and includes the following new features:
 1. Sign in by e-mail We heard more than once that required users to use their Social accounts to sign in is not the way to go. Some people might not have these accounts or don&amp;rsquo;t want to link they because of privacy concers, which is totally understandable!
-With this in mind, we are happy to release v0.6.0 with a very simple sign in by e-mail process.</description>
+With this in mind, we are happy to release v0.</description>
     </item>
     
     <item>
@@ -64,7 +75,7 @@ With this in mind, we are happy to release v0.6.0 with a very simple sign in by 
       <pubDate>Thu, 31 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>http://getfider.com/blog/version-0.5.0/</guid>
-      <description>Fider v0.5.0 has just been released and includes following features:
+      <description>Fider v0.5.0 has just been released and includes the following new features:
 1. Redesign The goal of this redesign was a default theme that could be easily used any customer, without forcing the violet theme. We&amp;rsquo;ve also removed the focus from the vote counter to the content, while keeping it simple and clean.
  Fider 0.4.0   Fider 0.5.0  2. Staff highlight Staff members will now have a different color on their names on discussions.</description>
     </item>
@@ -75,10 +86,9 @@ With this in mind, we are happy to release v0.6.0 with a very simple sign in by 
       <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>http://getfider.com/blog/version-0.4.0/</guid>
-      <description>Fider v0.4.0 has just been released and includes following features:
+      <description>Fider v0.4.0 has just been released and includes the following new features:
 1. Redesign The home page has been redesigned to make better use of the large screens on desktops, while keeping it clean and simple on mobile and tablets.
- Fider 0.3.0   Fider 0.4.0  2. Ideas filter While on home page you&amp;rsquo;ll now be able to filter and sort ideas based on commonly used criterias.
-This will help you quickly find mosted wanted ideas and those that are currently trending!</description>
+ Fider 0.3.0   Fider 0.4.0  2. Ideas filter While on home page you&amp;rsquo;ll now be able to filter and sort ideas based on commonly used criterias.</description>
     </item>
     
     <item>
@@ -87,7 +97,7 @@ This will help you quickly find mosted wanted ideas and those that are currently
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>http://getfider.com/blog/version-0.3.0/</guid>
-      <description>Fider v0.3.0 has just been released and includes following features:
+      <description>Fider v0.3.0 has just been released and includes the following new features:
 1. Staff now can add official response to ideas In you&amp;rsquo;re part of the Staff of a tenant, you&amp;rsquo;ll now see a Respond button where you can give your official status on what&amp;rsquo;s the plan for that idea. As of now, we&amp;rsquo;re currently supporting the following status: New, Started, Completed and Declined.
   2. Much simpler Sign up / Installation process On previous versions, installing a new Fider instance required some SQL commands to be run.</description>
     </item>

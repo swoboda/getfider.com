@@ -6,7 +6,7 @@ description = "We're happy to announce that version 0.3.0 is now released"
 author = "goenning"
 +++
 
-Fider v0.3.0 has just been released and includes following features:
+Fider v0.3.0 has just been released and includes the following new features:
 
 ### 1. Staff now can add official response to ideas
 
