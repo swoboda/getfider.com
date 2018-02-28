@@ -190,32 +190,39 @@ services:
     ports:
       - "9999:3000"
     environment:
-      # Use production for best performance or development for more verbose logging
+      ###
+      # REQUIRED
+      #
+      # All these settings are required
+      ###
+
+      # Use production for best performance
+      # Use development for verbose logs
       GO_ENV: production
       
       # Connection string to the PostgreSQL database. 
       # This example uses the Docker service defined above
-      DATABASE_URL: postgres://fider:s0m3g00dp4ssw0rd@db:5432/fider?sslmode=disable
+      DATABASE_URL: postgres://your-db-user:s0m3g00dp4ssw0rd@db:5432/your-db-name?sslmode=disable
       
       # CHANGE THIS! You can generate a strong secret at https://randomkeygen.com/
       JWT_SECRET: tXQhvSMWMS11qZ9euEhE6lf2ferf0FR6RYGd8iMXiTxxXtJ1XDVdTXPaLtV12ZGp
-      
-      # From which account e-mails will be sent
-      NOREPLY_EMAIL: noreply@yourdomain.com
+
+      # From which account e-mails will be sent (required)
+      EMAIL_NOREPLY: noreply@yourdomain.com
 
       ###
-      # E-MAIL
+      # EMAIL
       #
-      # Either MAILGUN_* or SMTP_* is required
+      # Either EMAIL_MAILGUN_* or EMAIL_SMTP_* is required
       ###
 
-      # MAILGUN_API: key-yourkeygoeshere
-      # MAILGUN_DOMAIN: yourdomain.com
+      # EMAIL_MAILGUN_API: key-yourkeygoeshere
+      # EMAIL_MAILGUN_DOMAIN: yourdomain.com
 
-      # SMTP_HOST=smtp.yourdomain.com
-      # SMTP_PORT=587
-      # SMTP_USERNAME=user@yourdomain.com
-      # SMTP_PASSWORD=s0m3p4ssw0rd
+      # EMAIL_SMTP_HOST=smtp.yourdomain.com
+      # EMAIL_SMTP_PORT=587
+      # EMAIL_SMTP_USERNAME=user@yourdomain.com
+      # EMAIL_SMTP_PASSWORD=s0m3p4ssw0rd
       
       ###
       # OPTIONAL
@@ -223,7 +230,8 @@ services:
       # Following settings are optional
       ###
 
-      # Social OAuth: Read more about http://getfider.com/docs/configuring-oauth/
+      # Social OAuth: 
+      # Read more on http://getfider.com/docs/configuring-oauth/
 
       # Facebook
       # OAUTH_FACEBOOK_APPID: &lt;fb_app_id&gt;

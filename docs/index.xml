@@ -6,7 +6,7 @@
     <description>Recent content in Get Feedback. Get Fider. on Fider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://getfider.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -22,6 +22,17 @@ You&#39;ll also need:
   PostgreSQL 9.6 Database This tutorial uses a Docker PostgreSQL image for the sake of simplicity.
   E-mail sender service: You can choose to use either a SMTP Server or a Mailgun account.
   Installing and Running Step 1: Create a docker compose file  Create a file named docker-compose.</description>
+    </item>
+    
+    <item>
+      <title>Fider v0.10.0 Released</title>
+      <link>http://getfider.com/blog/version-0.10.0/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://getfider.com/blog/version-0.10.0/</guid>
+      <description>Fider v0.10.0 has just been released and includes the following changes.
+1. Web and Email Notifications This has been, for a long time, the most wanted feature of Fider. The notification system is based on a subscription model where users are only notified about ideas they subscribed to. This can be done manually by clicking on &amp;ldquo;Subscribe&amp;rdquo; or automatically whenever they vote or comment on it.
+As for Collaborators and Administrators, they automatically subscribe to all ideas, although it&amp;rsquo;s possible to unsubscribe from each idea individually.</description>
     </item>
     
     <item>
