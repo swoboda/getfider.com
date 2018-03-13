@@ -14,5 +14,13 @@
     "**/bower_components": true,
     "themes": true,
     "docs": true
-  }
+  },
+  "cSpell.words": [
+    "Gravatar",
+    "Hellslicer",
+    "fider",
+    "getfider",
+    "goenning",
+    "mailto"
+  ]
 }

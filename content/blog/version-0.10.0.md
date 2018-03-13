@@ -1,12 +1,10 @@
 +++
 date = "2018-02-28"
-title = "Fider v0.10.0 Released"
+title = "Fider 0.10 released with notifications system and more"
 categories = ["releases"]
-description = "We're happy to announce that version 0.10.0 is now released"
+description = "We're happy to announce that Fider 0.10 is now available"
 author = "goenning"
 +++
-
-Fider v0.10.0 has just been released and includes the following changes.
 
 ### 1. Web and Email Notifications
 

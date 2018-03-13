@@ -1,12 +1,10 @@
 +++
 date = "2017-07-05"
-title = "Fider v0.3.0 Released"
+title = "Fider 0.3 released with staff response, SSL and sign up process"
 categories = ["releases"]
-description = "We're happy to announce that version 0.3.0 is now released"
+description = "We're happy to announce that Fider 0.3 is now available"
 author = "goenning"
 +++
-
-Fider v0.3.0 has just been released and includes the following new features:
 
 ### 1. Staff now can add official response to ideas
 
@@ -18,7 +16,7 @@ In you're part of the Staff of a tenant, you'll now see a <code>Respond</code> b
 
 ### 2. Much simpler Sign up / Installation process
 
-On previous versions, installing a new Fider instance required some SQL commands to be run. As of v0.3.0, the on-premise installation is much simpler and [hosted sign up](https://login.fider.io/signup) is very straight forward. Take a look at our [Hosting your own instance](http://localhost:1313/docs/hosting-instance/) documentation.
+On previous versions, installing a new Fider instance required some SQL commands to be run. As of 0.3, the on-premise installation is much simpler and [hosted sign up](https://login.fider.io/signup) is very straight forward. Take a look at our [Hosting your own instance](http://localhost:1313/docs/hosting-instance/) documentation.
 
 <figure>
   <img src="/images/docs/fider-clean-install.png" />

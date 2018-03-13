@@ -1,12 +1,10 @@
 +++
 date = "2017-07-29"
-title = "Fider v0.4.0 Released"
+title = "Fider 0.4 released with markdown and customizable text"
 categories = ["releases"]
-description = "We're happy to announce that version 0.4.0 is now released"
+description = "We're happy to announce that Fider 0.4 is now available"
 author = "goenning"
 +++
-
-Fider v0.4.0 has just been released and includes the following new features:
 
 ### 1. Redesign
 
@@ -24,9 +22,9 @@ The home page has been redesigned to make better use of the large screens on des
 
 ### 2. Ideas filter
 
-While on home page you'll now be able to filter and sort ideas based on commonly used criterias. 
+While on home page you'll now be able to filter and sort ideas based on commonly used criteria. 
 
-This will help you quickly find mosted wanted ideas and those that are currently trending!
+This will help you quickly find most wanted ideas and those that are currently trending!
 
 <figure>
   <img src="/images/blog/filter-ideas.png" />
@@ -42,7 +40,7 @@ Starting with Fider 0.4.0, some fields will have Markdown support so you can do 
   <img src="/images/blog/add-markdown.png" />
 </figure>
 
-Markdown has been fully enabled for Idea Descriptions and partily for Comments to avoid abuse and keep the thread clean.
+Markdown has been fully enabled for Idea Descriptions and partially for Comments to avoid abuse and keep the thread clean.
 
 Head over to [http://commonmark.org/help/](http://commonmark.org/help/) to learn more about Markdown syntax.
 

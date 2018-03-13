@@ -1,16 +1,14 @@
 +++
 date = "2017-10-31"
-title = "Fider v0.7.0 Released"
+title = "Fider 0.7 released with members administration and automatic SSL"
 categories = ["releases"]
-description = "We're happy to announce that version 0.7.0 is now released"
+description = "We're happy to announce that Fider 0.7 is now available"
 author = "goenning"
 +++
 
-Fider v0.7.0 has just been released and includes the following new features:
-
 ### 1. Add/Remove Members
 
-This <a href="https://feedback.fider.io/ideas/24/allow-other-users-to-be-adminstrators">feature has been suggested</a> during the month and received a fews votes on a short amount of time. 
+This <a href="https://feedback.fider.io/ideas/24/allow-other-users-to-be-adminstrators">feature has been suggested</a> during the month and received a few votes on a short amount of time. 
 This is a really basic feature that we were missing and now we're happy to ship the first version of it on this release.
 
 <figure>

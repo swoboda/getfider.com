@@ -1,18 +1,16 @@
 +++
 date = "2017-09-28"
-title = "Fider v0.6.0 Released"
+title = "Fider 0.6 released with sign in by email"
 categories = ["releases"]
-description = "We're happy to announce that version 0.6.0 is now released"
+description = "We're happy to announce that Fider 0.6 is now available"
 author = "goenning"
 +++
 
-Fider v0.6.0 has just been released and includes the following new features:
+### 1. Sign in by email
 
-### 1. Sign in by e-mail
+We heard more than once that required users to use their Social accounts to sign in is not the way to go. Some people might not have these accounts or don't want to link they because of privacy concerns, which is totally understandable!
 
-We heard more than once that required users to use their Social accounts to sign in is not the way to go. Some people might not have these accounts or don't want to link they because of privacy concers, which is totally understandable!
-
-With this in mind, we are happy to release v0.6.0 with a very simple sign in by e-mail process. There's no need for users to fill in any form, all they need to do is type their e-mail and click on the link that we send.
+With this in mind, we are happy to release v0.6.0 with a very simple sign in by email process. There's no need for users to fill in any form, all they need to do is type their email and click on the link that we send.
 
 <figure>
   <img src="/images/blog/sign-in-by-email.png" />
@@ -20,7 +18,7 @@ With this in mind, we are happy to release v0.6.0 with a very simple sign in by 
 
 If you have any feedback on this, please share it on the [official idea](https://feedback.fider.io/ideas/15/add-sign-up-form-as-alternative-to-social-auth) that originated this feature.
 
-This release also includes, for the first time, support to sending e-mails which might be used later on for other features like notification.
+This release also includes, for the first time, support to sending emails which might be used later on for other features like notification.
 
 ### How to update
 

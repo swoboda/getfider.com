@@ -120,3 +120,29 @@ figure img {
   line-height: 72px;
   font-weight: 900;
 }
+
+/* BLOG */
+
+.blogpost #hero h1 {
+  font-size: 48px;
+  line-height: 60px;
+}
+
+#posts time {
+  float: right;
+}
+
+#posts h6 {
+  font-size: 14px;
+  color: #1eabf2;
+  font-weight: normal;
+  border-bottom: 1px solid gainsboro;
+}
+
+#posts h6 a {
+  text-decoration: none;
+}
+
+#posts h6 a:hover{
+  text-decoration: underline;
+}

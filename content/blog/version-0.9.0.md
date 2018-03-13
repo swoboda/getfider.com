@@ -1,12 +1,10 @@
 +++
 date = "2018-01-29"
-title = "Fider v0.9.0 Released"
+title = "Fider 0.9.0 released with features to merge duplicate ideas, sort by trending ideas and more"
 categories = ["releases"]
-description = "We're happy to announce that version 0.9.0 is now released"
+description = "We're happy to announce that Fider 0.9 is now available"
 author = "goenning"
 +++
-
-Fider v0.9.0 has just been released and includes the following new features.
 
 ### 1. Merge duplicate ideas
 
@@ -20,7 +18,7 @@ When an idea is marked as a duplicate, it will show a link to the original idea 
 
 ### 2. Sort by trending
 
-Fider now shows trending ideas by default instead of recent ones. A trending idea is one that has received a few votes or comments in recent days, the more events happenning on this idea, the more likely it's to bubble up on the list. Recent ideas also start as trending for a few days, but it'll move down the list if it doesn't get any interaction.
+Fider now shows trending ideas by default instead of recent ones. A trending idea is one that has received a few votes or comments in recent days, the more events happening on this idea, the more likely it's to bubble up on the list. Recent ideas also start as trending for a few days, but it'll move down the list if it doesn't get any interaction.
 
 The algorithm is actually based on HackerNews, with a few adjustments. We're looking forward for feedback on how we can improve it!
 
@@ -34,7 +32,7 @@ It's now possible for users to update the e-mail address from their Fider accoun
 
 ### Want more?
 
-*For a full list of changes, including technical improvements and bugfixes, see [v0.9.0: January/2018](https://github.com/getfider/fider/milestone/2?closed=1) Milesone on GitHub.*
+*For a full list of changes, including technical improvements and bug fixes, see [v0.9.0: January/2018](https://github.com/getfider/fider/milestone/2?closed=1) Milestone on GitHub.*
 
 ### How to update
 

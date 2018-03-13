@@ -1,12 +1,10 @@
 +++
 date = "2017-08-31"
-title = "Fider v0.5.0 Released"
+title = "Fider 0.5 released with a great redesign and GitHub authentication"
 categories = ["releases"]
-description = "We're happy to announce that version 0.5.0 is now released"
+description = "We're happy to announce that Fider 0.5 is now available"
 author = "goenning"
 +++
-
-Fider v0.5.0 has just been released and includes the following new features:
 
 ### 1. Redesign
 
@@ -41,7 +39,7 @@ Staff members will now have a different color on their names on discussions.
 
 ### 4. Other minor changes
 
--  Letter avatar for those who doesn't have a [Gravatar](https://en.gravatar.com/) profile;
+- Letter avatar for those who doesn't have a [Gravatar](https://en.gravatar.com/) profile;
 - Beautiful 404 and 500 pages;
 - Built with the latest and greatest `Go 1.9`;
 

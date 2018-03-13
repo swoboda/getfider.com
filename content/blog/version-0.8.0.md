@@ -1,12 +1,10 @@
 +++
 date = "2017-11-29"
-title = "Fider v0.8.0 Released"
+title = "Fider 0.8 released with tags and edit posts feature"
 categories = ["releases"]
-description = "We're happy to announce that version 0.8.0 is now released"
+description = "We're happy to announce that Fider 0.8 is now available"
 author = "goenning"
 +++
-
-Fider v0.8.0 has just been released and includes the following new features:
 
 ### 1. Assign tag to posts
 
