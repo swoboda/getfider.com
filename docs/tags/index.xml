@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Fider</title>
-    <link>http://getfider.com/tags/</link>
+    <link>https://getfider.com/tags/</link>
     <description>Recent content in Tags on Fider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://getfider.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://getfider.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -3,98 +3,103 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://getfider.com/docs/hosting-instance/</loc>
+    <loc>https://getfider.com/docs/hosting-instance/</loc>
   </url>
   
   <url>
-    <loc>http://getfider.com/blog/version-0.10.0/</loc>
+    <loc>https://getfider.com/blog/version-0.11.0/</loc>
+    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://getfider.com/blog/version-0.10.0/</loc>
     <lastmod>2018-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://getfider.com/blog/version-0.9.0/</loc>
+    <loc>https://getfider.com/blog/version-0.9.0/</loc>
     <lastmod>2018-01-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://getfider.com/blog/version-0.8.0/</loc>
+    <loc>https://getfider.com/blog/version-0.8.0/</loc>
     <lastmod>2017-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://getfider.com/blog/version-0.7.0/</loc>
+    <loc>https://getfider.com/blog/version-0.7.0/</loc>
     <lastmod>2017-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://getfider.com/blog/version-0.6.0/</loc>
+    <loc>https://getfider.com/blog/version-0.6.0/</loc>
     <lastmod>2017-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://getfider.com/blog/version-0.5.0/</loc>
+    <loc>https://getfider.com/blog/version-0.5.0/</loc>
     <lastmod>2017-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://getfider.com/blog/version-0.4.0/</loc>
+    <loc>https://getfider.com/blog/version-0.4.0/</loc>
     <lastmod>2017-07-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://getfider.com/blog/version-0.3.0/</loc>
+    <loc>https://getfider.com/blog/version-0.3.0/</loc>
     <lastmod>2017-07-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://getfider.com/about/</loc>
+    <loc>https://getfider.com/about/</loc>
   </url>
   
   <url>
-    <loc>http://getfider.com/blog/</loc>
-    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    <loc>https://getfider.com/blog/</loc>
+    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://getfider.com/categories/</loc>
+    <loc>https://getfider.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://getfider.com/docs/configuring-oauth/</loc>
+    <loc>https://getfider.com/docs/configuring-oauth/</loc>
   </url>
   
   <url>
-    <loc>http://getfider.com/docs/</loc>
+    <loc>https://getfider.com/docs/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://getfider.com/faq/</loc>
+    <loc>https://getfider.com/faq/</loc>
   </url>
   
   <url>
-    <loc>http://getfider.com/</loc>
-    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    <loc>https://getfider.com/</loc>
+    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://getfider.com/docs/how-to-enable-ssl/</loc>
+    <loc>https://getfider.com/docs/how-to-enable-ssl/</loc>
   </url>
   
   <url>
-    <loc>http://getfider.com/privacy/</loc>
+    <loc>https://getfider.com/privacy/</loc>
   </url>
   
   <url>
-    <loc>http://getfider.com/categories/releases/</loc>
-    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    <loc>https://getfider.com/categories/releases/</loc>
+    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://getfider.com/tags/</loc>
+    <loc>https://getfider.com/tags/</loc>
     <priority>0</priority>
   </url>
   

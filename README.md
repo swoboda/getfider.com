@@ -4,4 +4,4 @@
 
 Fider is an open platform to collect and organize customer feedback.
 
-Visit [http://getfider.com](http://getfider.com) for more information.
+Visit [https://getfider.com](https://getfider.com) for more information.

@@ -1,6 +1,6 @@
 +++
 date = "2018-01-29"
-title = "Fider 0.9.0 released with features to merge duplicate ideas, sort by trending ideas and more"
+title = "Fider 0.9 released with features to merge duplicate ideas, sort by trending ideas and more"
 categories = ["releases"]
 description = "We're happy to announce that Fider 0.9 is now available"
 author = "goenning"

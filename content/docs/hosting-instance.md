@@ -94,7 +94,7 @@ services:
       ###
 
       # Social OAuth: 
-      # Read more on http://getfider.com/docs/configuring-oauth/
+      # Read more on https://getfider.com/docs/configuring-oauth/
 
       # Facebook
       # OAUTH_FACEBOOK_APPID: &lt;fb_app_id&gt;

@@ -18,7 +18,7 @@ Description and images/gif
 
 Description and images/gif
 
-### Other Improvements in Fider <version>
+### Other Changes on Fider <version>
 
 ### Breaking Changes (only if there's any)
 
