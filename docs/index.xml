@@ -6,7 +6,7 @@
     <description>Recent content in Get Feedback. Get Fider. on Fider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://getfider.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -22,6 +22,16 @@ You&#39;ll also need:
   PostgreSQL 9.6 Database This tutorial uses a Docker PostgreSQL image for the sake of simplicity.
   E-mail sender service: You can choose to use either a SMTP Server or a Mailgun account.
   Installing and Running Step 1: Create a docker compose file  Create a file named docker-compose.</description>
+    </item>
+    
+    <item>
+      <title>Fider 0.12 released with features for privacy and export data</title>
+      <link>https://getfider.com/blog/version-0.12.0/</link>
+      <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://getfider.com/blog/version-0.12.0/</guid>
+      <description>Introduction We&amp;rsquo;re super excited about this release! Private site was a highly requested feature that brings a lot of value in some particular situations. This feature open a range of possibilities on how people can leverage Fider on their projects and organizations.
+Aside from that, we&amp;rsquo;re also shipping a built-in option to export all your ideas to a CSV. This can be particularly useful if you want to do some analysis on an external tool like Excel or any of your favorite Business Intelligence tool.</description>
     </item>
     
     <item>
