@@ -1,6 +1,5 @@
 baseURL = "https://getfider.com/"
 title = "Fider"
-theme = "kube"
 publishDir = "docs"
 description = "Open platform to collect and organize customer feedback"
 googleAnalytics = "UA-100812395-1"
