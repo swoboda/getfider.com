@@ -1,5 +1,4 @@
 baseURL = "https://getfider.com/"
-languageCode = "en-us"
 title = "Fider"
 theme = "kube"
 publishDir = "docs"

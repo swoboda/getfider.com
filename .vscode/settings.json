@@ -6,7 +6,7 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "docs": true
+    git rm .gitmodules    "docs": true
   },
   "search.exclude": {
     "**/node_modules": true,
