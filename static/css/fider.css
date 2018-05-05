@@ -48,26 +48,6 @@ header #top-brand span {
   }
 }
 
-/* HOSTING */
-
-#hosting .hosting-grid {
-  text-align: center;
-}
-
-#hosting .option {
-  box-shadow: 0 5px 15px rgba(39, 40, 44, 0.15);
-  padding: 20px;
-}
-
-#hosting .option .header {
-  border-bottom: 1px solid rgba(39, 40, 44, 0.15);
-}
-
-#hosting .option .description {
-  padding: 10px 0px;
-  min-height: 120px;
-}
-
 /* OTHERS */
 
 #features {
@@ -146,3 +126,65 @@ figure img {
 #posts h6 a:hover{
   text-decoration: underline;
 }
+
+/* HOSTING */
+
+#hosting .hosting-grid {
+  text-align: center;
+}
+
+#hosting .selfhosted-option {
+  border-top: 5px solid #eeb523;
+}
+
+#hosting .cloud-option {
+  border-top: 5px solid #35c53f;
+}
+
+#hosting .option {
+  box-shadow: 0 5px 15px rgba(39, 40, 44, 0.15);
+  padding: 20px;
+}
+
+#hosting .option img {
+  width: 100px;
+}
+
+#hosting .option .price {
+  font-size: 36px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+#hosting .option .price .beta {
+  font-size: 24px;
+  vertical-align: top;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#hosting .option .price-notes {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#hosting .option .header {
+  padding: 10px 0px;
+}
+
+#hosting .option .header img {
+  padding: 10px 0px;
+}
+
+#hosting .option .header h3 {
+  text-transform: uppercase;
+}
+
+#hosting .option .description {
+  padding: 10px 0px;
+  min-height: 120px;
+}
+
+/* PRICING */
