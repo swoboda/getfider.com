@@ -50,6 +50,10 @@ header #top-brand span {
 
 /* OTHERS */
 
+code {
+  background-color: #eee;
+}
+
 #features {
   text-align: center;
 }

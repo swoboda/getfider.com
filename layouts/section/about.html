@@ -1,10 +1,9 @@
-{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "title"}} {{.Title}} {{end}}
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main" }}
 <div id="main">
-  <div id="hero">
-    <h1>{{.Title}}</h1>
-    <p></p>
+  <div id="hero" style="text-align: left">
+    <h2>{{.Title}}</h2>
   </div>
   {{.Content | safeHTML}}
 </div>

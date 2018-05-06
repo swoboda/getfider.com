@@ -1,9 +1,9 @@
-{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "title"}} {{ .Title }} {{end}}
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
 <div id="main">
   <div id="hero">
-    <h1>{{ .Title }}</h1>
+    <h1>{{ .Params.Header }}</h1>
     <span>{{ .Description }}</span>
     <p>Let your customers share, vote and discuss on suggestions they have to make your product or company even better.</p>
   </div>
@@ -124,7 +124,7 @@
                 Sit back and relax. Let us do the hard work.
                 Sign up now and start using it in less than 60 seconds.
             </p>
-            <span class="price">$0 <span class="beta">*</span></span>
+            <span class="price">$0 <span class="beta">/mo *</span></span>
             <span class="price-notes">* free during our public beta.</span>
             <a class="button default big" href="https://login.fider.io/signup">Sign up</a>
           </div>
