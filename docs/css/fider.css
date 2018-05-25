@@ -93,18 +93,6 @@ figure img {
   box-shadow: 0 10px 10px 0 #cfcfcf;
 }
 
-/* PRIVACY POLICY */
-
-#privacy {
-  margin: 24px;
-}
-
-#privacy h1 {
-  font-size: 34px;
-  line-height: 72px;
-  font-weight: 900;
-}
-
 /* BLOG */
 
 .blogpost #hero h1 {

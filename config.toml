@@ -48,8 +48,3 @@ googleAnalytics = "UA-100812395-1"
    name = "GitHub"
    weight = 500
    url = "https://github.com/getfider/fider"
-
- [[menu.footer]]
-   name = "Privacy"
-   weight = 600
-   url = "/privacy"
