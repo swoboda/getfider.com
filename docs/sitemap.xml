@@ -7,6 +7,11 @@
   </url>
   
   <url>
+    <loc>https://getfider.com/blog/version-0.13/</loc>
+    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://getfider.com/blog/version-0.12.0/</loc>
     <lastmod>2018-04-28T00:00:00+00:00</lastmod>
   </url>
@@ -62,7 +67,7 @@
   
   <url>
     <loc>https://getfider.com/blog/</loc>
-    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -73,7 +78,7 @@
   
   <url>
     <loc>https://getfider.com/</loc>
-    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -94,8 +99,12 @@
   </url>
   
   <url>
+    <loc>https://getfider.com/docs/how-to-show-legal-pages/</loc>
+  </url>
+  
+  <url>
     <loc>https://getfider.com/categories/releases/</loc>
-    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -40,8 +40,19 @@ Facebook  Create a facebook app at https://developers.facebook.com/apps. Set OAU
       
       <guid>https://getfider.com/docs/how-to-enable-ssl/</guid>
       <description>Prerequisites In order to configure HTTPS, you&amp;rsquo;ll need a Certificate and the Private Key.
-How to enable it Fider v0.3.0 shipped with two new environment variables that you&amp;rsquo;ll need to set.
- SSL_CERT: This is the path to the Certificate file. SSL_CERT_KEY: This is the path to the Private Key file.  If you&amp;rsquo;re using Docker, these files won&amp;rsquo;t be inside the container, but Fider will need to have access to it.</description>
+How to enable it These are the two environment variables that have to be set.
+ SSL_CERT: The name of the Certificate file. SSL_CERT_KEY: The name of the Private Key file.  Fider&amp;rsquo;s Docker image expects both file to be available on /app/etc. You can copy these files anywhere you want on your server and share them with your Docker container by using volumes.</description>
+    </item>
+    
+    <item>
+      <title>How to show Legal Pages</title>
+      <link>https://getfider.com/docs/how-to-show-legal-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://getfider.com/docs/how-to-show-legal-pages/</guid>
+      <description>Starting from Fider 0.13, it is now possible host custom Privacy Policy and Terms of Service that will be displayed to all users during the registration and sign in process.
+Prerequisites You will need both documents written in a markdown format, they need to be named terms.md and privacy.md.
+How to Fider&amp;rsquo;s Docker image expects both file to be available on /app/etc. You can copy these files anywhere you want on your server and share them with your Docker container by using volumes.</description>
     </item>
     
   </channel>

@@ -11,11 +11,13 @@ bref = "Follow this quick tutorial to know how you can host your instance under 
 
 In order to configure HTTPS, you'll need a <code>Certificate</code> and the <code>Private Key</code>.
 
-<h3 class="section-head" id="h-basic-template"><a href="#h-basic-template">How to enable it</a></h3>
+<h3 class="section-head" id="h-how-to"><a href="#h-how-to">How to enable it</a></h3>
 
-Fider v0.3.0 shipped with two new environment variables that you'll need to set.
+These are the two environment variables that have to be set.
 
-1. <b>SSL_CERT</b>: This is the path to the <code>Certificate</code> file.
-2. <b>SSL_CERT_KEY</b>: This is the path to the <code>Private Key</code> file.
+1. <b>SSL_CERT</b>: The name of the <code>Certificate</code> file.
+2. <b>SSL_CERT_KEY</b>: The name of the <code>Private Key</code> file.
 
-If you're using Docker, these files won't be inside the container, but Fider will need to have access to it. In order to accomplish this, we recommend the use of <a href="https://docs.docker.com/engine/tutorials/dockervolumes/">data volumes</a>.
+Fider's Docker image expects both file to be available on `/app/etc`. You can copy these files anywhere you want on your server and share them with your Docker container by using [volumes](https://docs.docker.com/storage/volumes/).
+
+E.g.: if both files are on `/home/me/fider`, you can map it to the container with `-v /home/me/fider:/app/etc`.

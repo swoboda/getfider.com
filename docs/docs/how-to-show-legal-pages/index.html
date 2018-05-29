@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> How to enable SSL  · Fider</title>
+    <title> How to show Legal Pages  · Fider</title>
 
     
-    <meta name="description" content="Host your instance under the HTTPS protocol"> 
+    <meta name="description" content="Display your own Privacy Policy and Terms of Service"> 
     
 
     
@@ -15,10 +15,10 @@
   <meta name="author" content="Fider">
 
 
-    <meta property="og:title" content="How to enable SSL" />
-<meta property="og:description" content="Host your instance under the HTTPS protocol" />
+    <meta property="og:title" content="How to show Legal Pages" />
+<meta property="og:description" content="Display your own Privacy Policy and Terms of Service" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://getfider.com/docs/how-to-enable-ssl/" />
+<meta property="og:url" content="https://getfider.com/docs/how-to-show-legal-pages/" />
 
 
 
@@ -100,9 +100,9 @@ ga('send', 'pageview');
     <main>
   <div id="main">
     <div id="hero">
-      <h1> How to enable SSL </h1>
+      <h1> How to show Legal Pages </h1>
       <p class="hero-lead">
-           Follow this quick tutorial to know how you can host your instance under the HTTPS protocol.
+           Follow this quick tutorial to know how to add your own Privacy Policy and Terms of Service.
       </p>
 
     </div> 
@@ -129,18 +129,13 @@ headingSelector: 'h3'
 
 
 
-    <h3 class="section-head" id="h-prerequisites"><a href="#h-prerequisites">Prerequisites</a></h3>
+    <p>Starting from Fider 0.13, it is now possible host custom Privacy Policy and Terms of Service that will be displayed to all users during the registration and sign in process.</p>
 
-<p>In order to configure HTTPS, you&rsquo;ll need a <code>Certificate</code> and the <code>Private Key</code>.</p>
+<h3 class="section-head" id="h-prerequisites"><a href="#h-prerequisites">Prerequisites</a></h3>
 
-<h3 class="section-head" id="h-how-to"><a href="#h-how-to">How to enable it</a></h3>
+<p>You will need both documents written in a markdown format, they <strong>need</strong> to be named <code>terms.md</code> and <code>privacy.md</code>.</p>
 
-<p>These are the two environment variables that have to be set.</p>
-
-<ol>
-<li><b>SSL_CERT</b>: The name of the <code>Certificate</code> file.</li>
-<li><b>SSL_CERT_KEY</b>: The name of the <code>Private Key</code> file.</li>
-</ol>
+<h3 class="section-head" id="h-how-to"><a href="#h-how-to">How to</a></h3>
 
 <p>Fider&rsquo;s Docker image expects both file to be available on <code>/app/etc</code>. You can copy these files anywhere you want on your server and share them with your Docker container by using <a href="https://docs.docker.com/storage/volumes/">volumes</a>.</p>
 

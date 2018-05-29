@@ -5,7 +5,7 @@
     <link>https://getfider.com/</link>
     <description>Recent content in Collect and organize product feedback on Fider</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 28 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://getfider.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -21,6 +21,16 @@ You&#39;ll also need:
   PostgreSQL 9.6 Database This tutorial uses a Docker PostgreSQL image for the sake of simplicity.
   E-mail sender service: You can choose to use either a SMTP Server or a Mailgun account.
   Installing and Running Step 1: Create a docker compose file  Create a file named docker-compose.</description>
+    </item>
+    
+    <item>
+      <title>Fider 0.13 released with custom branding and legal compliance</title>
+      <link>https://getfider.com/blog/version-0.13/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://getfider.com/blog/version-0.13/</guid>
+      <description>#1: Custom Branding First thing we&amp;rsquo;d like to highlight is that administratrors are now able to upload a logo for the site. This logo is shown on different places, like the Header, the error pages, favicon and also on social links. We highly recommend everyone to upload a company/product logo as this will result in a much nicer social sharing experience.
+  The other big addition is the Custom CSS, which allows administrators to write their own CSS to change the design of nearly everything on the site.</description>
     </item>
     
     <item>
@@ -145,8 +155,19 @@ Facebook  Create a facebook app at https://developers.facebook.com/apps. Set OAU
       
       <guid>https://getfider.com/docs/how-to-enable-ssl/</guid>
       <description>Prerequisites In order to configure HTTPS, you&amp;rsquo;ll need a Certificate and the Private Key.
-How to enable it Fider v0.3.0 shipped with two new environment variables that you&amp;rsquo;ll need to set.
- SSL_CERT: This is the path to the Certificate file. SSL_CERT_KEY: This is the path to the Private Key file.  If you&amp;rsquo;re using Docker, these files won&amp;rsquo;t be inside the container, but Fider will need to have access to it.</description>
+How to enable it These are the two environment variables that have to be set.
+ SSL_CERT: The name of the Certificate file. SSL_CERT_KEY: The name of the Private Key file.  Fider&amp;rsquo;s Docker image expects both file to be available on /app/etc. You can copy these files anywhere you want on your server and share them with your Docker container by using volumes.</description>
+    </item>
+    
+    <item>
+      <title>How to show Legal Pages</title>
+      <link>https://getfider.com/docs/how-to-show-legal-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://getfider.com/docs/how-to-show-legal-pages/</guid>
+      <description>Starting from Fider 0.13, it is now possible host custom Privacy Policy and Terms of Service that will be displayed to all users during the registration and sign in process.
+Prerequisites You will need both documents written in a markdown format, they need to be named terms.md and privacy.md.
+How to Fider&amp;rsquo;s Docker image expects both file to be available on /app/etc. You can copy these files anywhere you want on your server and share them with your Docker container by using volumes.</description>
     </item>
     
   </channel>
