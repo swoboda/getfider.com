@@ -29,7 +29,7 @@ bref = "A one minute guide on how to get your own Fider instance up and running"
 <h5>Step 1: Create a docker compose file</h5>
 
 <p>
-Create a `/var/fider` folder and copy content below into a file `/var/fider/docker-compose.yml`.
+Create a <code>/var/fider</code> folder and copy content below into a file <code>/var/fider/docker-compose.yml</code>.
 Read the inline comments to know what each setting is used for. 
 </p>
 
