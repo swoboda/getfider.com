@@ -5,7 +5,7 @@
     <link>https://getfider.com/</link>
     <description>Recent content in Collect and prioritize product feedback on Fider</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 29 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://getfider.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +20,16 @@
 You&#39;ll also need:
   PostgreSQL 9.6 Database This tutorial uses a Docker PostgreSQL image for the sake of simplicity, but we highly recommend you to use a database outside Docker.
   E-mail sender service: You can choose to use either a SMTP Server or a Mailgun account.</description>
+    </item>
+    
+    <item>
+      <title>Fider 0.14 released with improved foundation and minor features</title>
+      <link>https://getfider.com/blog/version-0.14.0/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://getfider.com/blog/version-0.14.0/</guid>
+      <description>In this release we&amp;rsquo;ve focused on technical improvements, but we managed to deliver minor features as well. This is a necessary step towards building a product that can be further enhanced with new features.
+#1: Filter ideas that I voted We&amp;rsquo;ve included a new filter option: My Votes. This option will show all ideas that the current signed in user has already voted on. It is only available for signed in users</description>
     </item>
     
     <item>

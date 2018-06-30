@@ -2,7 +2,7 @@
 date = "2018-05-29"
 title = "Fider 0.13 released with custom branding and legal compliance"
 categories = ["releases"]
-description = "In this month’s release of Fider we're happy to the release another highly request feature: Custom Branding"
+description = "In this month’s release of Fider, we're happy to release another highly request feature: Custom Branding"
 author = "goenning"
 +++
 

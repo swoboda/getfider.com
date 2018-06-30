@@ -2,7 +2,7 @@
 date = "2018-03-25"
 title = "Fider 0.11 released with option to edit and delete ideas"
 categories = ["releases"]
-description = "In this month’s release of Fider we’ve been working mostly on internal changes, but managed to add option edit and delete ideas"
+description = "In this month’s release of Fider, we’ve been working mostly on internal changes, but managed to add option edit and delete ideas"
 author = "goenning"
 +++
 

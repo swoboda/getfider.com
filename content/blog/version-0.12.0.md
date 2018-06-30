@@ -2,7 +2,7 @@
 date = "2018-04-28"
 title = "Fider 0.12 released with features for privacy and export data"
 categories = ["releases"]
-description = "In this month’s release of Fider we’ve been working on two highly requested features: Private Site and Export Data"
+description = "In this month’s release of Fider, we’ve been working on two highly requested features: Private Site and Export Data"
 author = "goenning"
 +++
 
