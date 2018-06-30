@@ -18,9 +18,8 @@
       <guid>https://getfider.com/docs/hosting-instance/</guid>
       <description>Prerequisites We highly recommend using Docker to host the application. It&#39;s the easiest and fastest way to get started and stay up to date with any future release.
 You&#39;ll also need:
-  PostgreSQL 9.6 Database This tutorial uses a Docker PostgreSQL image for the sake of simplicity.
-  E-mail sender service: You can choose to use either a SMTP Server or a Mailgun account.
-  Installing and Running Step 1: Create a docker compose file  Create a file named docker-compose.</description>
+  PostgreSQL 9.6 Database This tutorial uses a Docker PostgreSQL image for the sake of simplicity, but we highly recommend you to use a database outside Docker.
+  E-mail sender service: You can choose to use either a SMTP Server or a Mailgun account.</description>
     </item>
     
     <item>

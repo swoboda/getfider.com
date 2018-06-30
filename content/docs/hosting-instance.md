@@ -16,7 +16,7 @@ bref = "A one minute guide on how to get your own Fider instance up and running"
 <ul>
 <li>
   <b>PostgreSQL 9.6 Database</b>
-  <p>This tutorial uses a Docker PostgreSQL image for the sake of simplicity.</p>
+  <p>This tutorial uses a Docker PostgreSQL image for the sake of simplicity, but we highly recommend you to use a database outside Docker.</p>
 </li> 
 <li>
   <b>E-mail sender service:</b>
@@ -29,13 +29,9 @@ bref = "A one minute guide on how to get your own Fider instance up and running"
 <h5>Step 1: Create a docker compose file</h5>
 
 <p>
-Create a file named <code>docker-compose.yml</code> and copy content below. 
-Read the comments to know what each settings is used for. 
+Create a `/var/fider` folder and copy content below into a file `/var/fider/docker-compose.yml`.
+Read the inline comments to know what each setting is used for. 
 </p>
-
-<p>The following Docker Compose file defines two services: <code>db</code> and <code>app</code>. In case you're using an external Postgres database, remove <code>db</code> service and replace <code>DATABASE_URL</code> variable with your connection string.</p>
-
-<p>The application service loads the latest stable version from our public <a href="https://hub.docker.com/r/getfider/fider/">Docker repository</a>.</p>
 
 <pre>
 version: '2'
@@ -43,6 +39,8 @@ services:
   db:
     restart: always
     image: postgres:9.6
+    volumes:
+      - /var/fider/pg_data:/var/lib/postgresql/data
     environment:
       POSTGRES_USER: fider
       POSTGRES_PASSWORD: s0m3g00dp4ssw0rd
@@ -65,7 +63,7 @@ services:
       
       # Connection string to the PostgreSQL database. 
       # This example uses the Docker service defined above
-      DATABASE_URL: postgres://your-db-user:s0m3g00dp4ssw0rd@db:5432/your-db-name?sslmode=disable
+      DATABASE_URL: postgres://fider:s0m3g00dp4ssw0rd@db:5432/fider?sslmode=disable
       
       # CHANGE THIS! You can generate a strong secret at https://randomkeygen.com/
       JWT_SECRET: tXQhvSMWMS11qZ9euEhE6lf2ferf0FR6RYGd8iMXiTxxXtJ1XDVdTXPaLtV12ZGp
@@ -112,6 +110,8 @@ services:
       - db
 </pre>
 
+<p>The Docker Compose above defines two services: <code>db</code> and <code>app</code>. In case you're using an external Postgres database, remove <code>db</code> service and replace <code>DATABASE_URL</code> variable with your connection string.</p>
+
 <h5>Step 2: Pull the images and run it</h5>
 
 <p>Open your favorite terminal, navigate to the folder in which you create file above and run following command.</p>
@@ -121,7 +121,7 @@ $ docker-compose pull
 $ docker-compose up
 </pre>
 
-<p><i><b>Important!</b></i> If you see messages like <code>Error: dial tcp 172.19.0.2:5432: getsockopt: connection refused</code>. Don't panic, that's expected when using a docker PostgreSQL. That might happen because the application is trying to start while the database is still initializing.</p>
+<p><i><b>Important!</b></i> If you see messages like <code>Error: dial tcp &lt;any_ip&gt;:5432: connect: connection refused</code>. Don't panic, that's expected when using a docker PostgreSQL. That might happen because the application is trying to start while the database is still initializing.</p>
 
 <p>The message <code>http server started on [::]:3000</code> means everything went well and you're ready to go.</p>
 
