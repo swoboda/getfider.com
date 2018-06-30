@@ -1,7 +1,7 @@
 baseURL = "https://getfider.com/"
 title = "Fider"
 publishDir = "docs"
-description = "Open platform to collect and organize product feedback"
+description = "Open platform to collect and prioritize product feedback"
 googleAnalytics = "UA-100812395-1"
 [Params]
   RSSLink = "/index.xml"
