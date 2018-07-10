@@ -1,0 +1,4 @@
+baseURL: https://getfider.com/
+title: Fider
+publishDir: docs
+googleAnalytics: UA-100812395-1

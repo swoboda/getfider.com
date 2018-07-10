@@ -7,11 +7,11 @@ toc = true
 bref = "Follow this quick tutorial to know how you can host your instance under the HTTPS protocol"
 +++
 
-<h3 class="section-head" id="h-prerequisites"><a href="#h-prerequisites">Prerequisites</a></h3>
+<h3>Prerequisites</h3>
 
 In order to configure HTTPS, you'll need a <code>Certificate</code> and the <code>Private Key</code>.
 
-<h3 class="section-head" id="h-how-to"><a href="#h-how-to">How to enable it</a></h3>
+<h3>How to enable it</h3>
 
 These are the two environment variables that have to be set.
 

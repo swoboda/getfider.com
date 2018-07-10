@@ -1,0 +1,41 @@
+{{ define "header"}}
+{{ end }}
+
+{{ define "footer"}}
+<a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+  <i class="stack-interface stack-up-open-big"></i>
+</a>
+{{ end }}
+
+{{ define "main"}}
+<main class="docs-list">
+  {{ partial "docs-sidebar.html" . }}
+  <div class="main-container">
+    <section>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 col-lg-8">
+            <h1>Documentation</h1>
+            <p class="lead">Learn how to get the most out of Fider</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class=" ">
+      <div class="container">
+        <div class="row">
+          {{ range .Data.Pages }}
+            <div class="col-md-4">
+              <div class="feature feature-1 boxed boxed--border">
+                <h5>{{ .Title }}</h5>
+                <p>{{ .Params.bref }}</p>
+                <a href="{{ .Permalink }}">Read more →</a>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+{{ end }}

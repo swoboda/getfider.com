@@ -7,20 +7,18 @@ toc = true
 bref = "Learn how to create Facebook and Google sign in apps and use it in your Fider instance"
 +++
 
-<h3 class="section-head" id="h-why-required"><a href="#h-why-required">Configuring Social OAuth</a></h3>
-
 Authentication is a key component of Fider platform. We take security and usability very seriously, which is why we've decided to go with Social sign in as the main authentication method.
 
 Setup is very easy and fast.
 
-<h3 class="section-head" id="h-facebook"><a href="#h-facebook">Facebook</a></h3>
+<h3>Facebook</h3>
 
 <ol>
   <li>Create a facebook app at <a href="https://developers.facebook.com/apps">https://developers.facebook.com/apps</a>.
   <li>Set <code>OAUTH_FACEBOOK_APPID</code> and <code>OAUTH_FACEBOOK_SECRET</code> environment variables.</li>
 </ol>
 
-<h3 class="section-head" id="h-google"><a href="#h-google">Google</a></h3>
+<h3>Google</h3>
 
 <ol>
   <li>Create a facebook app at <a href="https://console.developers.google.com">https://console.developers.google.com</a>.
@@ -28,7 +26,7 @@ Setup is very easy and fast.
   <li>Set <code>OAUTH_GOOGLE_CLIENTID</code> and <code>OAUTH_GOOGLE_SECRET</code> environment variables.</li>
 </ol>
 
-<h3 class="section-head" id="h-github"><a href="#h-github">GitHub</a></h3>
+<h3>GitHub</h3>
 
 <ol>
   <li>Create a facebook app at <a href="https://github.com/settings/applications/new">https://github.com/settings/applications/new</a>.

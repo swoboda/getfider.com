@@ -1,139 +1,200 @@
-{{ define "title"}} {{ .Title }} {{end}}
-{{ define "header"}} {{ partial "header" .}} {{end}}
-{{ define "main"}}
-<div id="main">
-  <div id="hero">
-    <h1>{{ .Params.Header }}</h1>
-    <p>{{ .Description }}</p>
-  </div>
-
-  <div id="action-buttons">
-    <a class="button primary big" href="https://feedback.fider.io">See it in action</a>
-    <a class="button outline big" href="#hosting">Get started</a>
-  </div>
-  
-  <div id="features" class="grid">
-    <h2>Features</h2>
-
-    <div class="row align-middle">
-      <div class="col col-4 text">
-        <h3>Share ideas, vote and discuss</h3>
-        <p>Let your customers decide what you should work on. Use Fider to give voice to your community.</p>
-      </div>
-      <div class="col col-8">
-        <img src="/images/features/feature1.png" />
-      </div>
-    </div>
-    
-    <div class="row align-middle">
-      <div class="col col-4 text">
-        <h3>Keep everyone informed</h3>
-        <p>Whenever you decide to start, complete or decline an idea, send an update on Fider so that everyone is aware of what's going on. </p>
-      </div>
-      <div class="col col-8">
-        <img src="/images/features/feature5.png" />
-      </div>
-    </div>
-
-    <div class="row align-middle">
-      <div class="col col-4 text">
-        <h3>One click sign in</h3>
-        <p>No forms. No hurdles. <br/> Just one click away from contributing! <br/> Social login via GitHub, Facebook and Google.</p>
-      </div>
-      <div class="col col-8">
-        <img src="/images/features/feature2.png" />
-      </div>
-    </div>
-
-    <div class="row align-middle">
-      <div class="col col-4 text">
-        <h3>Organize your content</h3>
-        <p>Hundreds of ideas require organization and you can do so by tagging them to make it easier to find, group and decide.</p>
-        <p>Each tag can be either <strong>Public</strong> or <strong>Private</strong>.</p>
-      </div>
-      <div class="col col-8">
-        <img src="/images/features/feature3.gif" />
-      </div>
-    </div>
-    
-    <div class="row align-middle">
-      <div class="col col-4 text">
-        <h3>Your own domain, secure</h3>
-        <p>When using our hosted service, you can use your own domain and get a free TLS certificate to help keep it secure.</p>
-      </div>
-      <div class="col col-8">
-        <img src="/images/features/feature4.png" />
-      </div>
-    </div>
-    
-    <div class="row align-middle">
-      <div class="col col-3">
-        <figure>
-          <i style="color: orange;" class="fa fa-bolt fa-3x" aria-hidden="true"></i>
-        </figure>
-        <h3>Lightning fast</h3>
-        <p>Performance is a feature and we take every aspect of it very seriously. Happier visitors. Healthier servers.</p>
-      </div>
-      <div class="col col-1"></div>
-      <div class="col col-4">
-        <figure>
-          <i style="color: rgb(231, 68, 62);" class="fa fa-heart fa-3x" aria-hidden="true"></i>
-        </figure>
-        <h4>Customer-First Experience</h4>
-        <p>We believe that an easy to use and clean platform is the way to collect better feedback.</p>
-      </div>
-      <div class="col col-1"></div>
-      <div class="col col-3">
-        <figure>
-          <i style="color: #000;" class="fa fa-github fa-3x" aria-hidden="true"></i>
-        </figure>
-        <h4>Open Source</h4>
-        <p>Our code is 100% Open Source. <br/> Visit <a href="https://github.com/getfider/fider">getfider/fider</a> on GitHub.</p>
-      </div>
-    </div>
-  </div>
-
-  <div id="hosting" class="grid"> 
-    <h2>Let's get you started with Fider</h2>
-
-    <div class="hosting-grid">
-      <div class="row gutters">
-        <div class="col col-2 item"></div>
-
-        <div class="col col-4 item">
-          <div class="option selfhosted-option">
-            <div class="header">
-              <img src="/images/selfhosted-icon.png" alt="Self-Hosted" />
-              <h3>Self-Hosted</h3>
-            </div>
-            <p class="description">Take total control over your instance and data. Download Fider and install on your own servers.</p>
-            <span class="price">Free</span>
-            <span class="price-notes">Free forever. Really!</span>
-            <a class="button positive big" href="/docs/hosting-instance">Learn how</a>
-          </div>
-        </div>
-
-        <div class="col col-4 item">
-          <div class="option cloud-option">
-            <div class="header">
-              <img src="/images/cloud-icon.png" alt="Cloud" />
-              <h3>Cloud</h3>
-            </div>
-            <p class="description">
-                Sit back and relax. Let us do the hard work.
-                Sign up now and start using it in less than 60 seconds.
-            </p>
-            <span class="price">$0 <span class="beta">/mo *</span></span>
-            <span class="price-notes">* free during our public beta.</span>
-            <a class="button default big" href="https://login.fider.io/signup">Sign up</a>
-          </div>
-        </div>
-
-        <div class="col col-2 item"></div>
-      </div>
-
-    </div>
-  </div>
-</div>
+{{ define "title"}}
+Collect and prioritize product feedback
 {{ end }}
-{{ define "footer"}} {{ partial "footer" .}} {{end}}
+
+{{ define "header"}}
+{{ partial "primary-header.html" . }}
+{{ end }}
+
+{{ define "footer"}}
+{{ partial "primary-footer.html" . }}
+{{ end }}
+
+{{ define "main"}}
+<main>
+  <section class="cover">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-sm-12 mt-3">
+          <h1>Product Feedback</h1>
+          <p class="lead">
+            Fider can help you collect and prioritize product feedback so that you can focus on building the right product.
+          </p>
+          <div class="container">
+            <div class="row actions">
+              <div class="col-4 col-sm-4 col-md-3 col-lg-6 col-xl-5">
+                <a href="#pricing" class="btn btn--primary type--uppercase">
+                  <span class="btn__text">Get Started</span>
+                </a>
+              </div>
+              <div class="col-4 col-sm-4 col-md-3 col-lg-6 col-xl-5">
+                <a href="https://feedback.fider.io" class="btn type--uppercase">
+                  <span class="btn__text">See it in action</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 col-sm-12 mt-3">
+          <img class="screenshot" src="/images/fider001.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg--secondary">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-10 col-md-8 col-lg-6 text-center">
+          <h2>Features</h2>
+        </div>
+      </div>
+
+      <div class="row text-center">
+
+        <div class="col-md-4">
+          <div class="feature feature-3 boxed boxed--border">
+            <i class="icon icon--lg icon-Conference"></i>
+            <h4>Share ideas, vote and discuss</h4>
+            <p>Give voice to your community, get valuable suggestions and prioritize what they need the most.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature feature-3 boxed boxed--border">
+            <i class="icon icon--lg icon-Communication-Tower color--primary"></i>
+            <h4>Keep everyone informed</h4>
+            <p>Whenever you start, complete or decline an idea, send an update to everyone that subscribed to that topic.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature feature-3 boxed boxed--border">
+            <i class="icon icon--lg icon-At-Sign"></i>
+            <h4>One click sign in</h4>
+            <p>No forms. No hurdles. Just one click away from contributing! Social login via GitHub, Facebook and Google.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="feature feature-3 boxed boxed--border">
+            <i class="icon icon--lg icon-Finger-Print color--primary"></i>
+            <h4>Private Site</h4>
+            <p>You can choose to control access to your Fider site by making it Private.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature feature-3 boxed boxed--border">
+            <i class="icon icon--lg icon-Wizard"></i>
+            <h4>Your Brand</h4>
+            <p>Leverage our custom CSS feature to style Fider the way you want. Your logo, your colors, your identity.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature feature-3 boxed boxed--border">
+            <i class="icon icon--lg icon-Coding color--primary"></i>
+            <h4>Public API</h4>
+            <p>Leverage our complete API and have total control to integrate Fider into your process. <strong>Coming soon!</strong></p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="feature feature-3 boxed boxed--border">
+            <i class="icon icon--lg icon-Tag-3"></i>
+            <h4>Organize your content</h4>
+            <p>Tag your content to make it easier to find, group and decide. Tags can be either Public or Private.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="feature feature-3 boxed boxed--border">
+            <i class="icon icon--lg icon-SSL color--primary"></i>
+            <h4>Your own domain. Secure</h4>
+            <p>When using our hosted service, you can use your own domain and get a free TLS certificate to help keep it secure.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature feature-3 boxed boxed--border">
+            <i class="icon icon--lg">
+              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon">GitHub icon</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </i>
+            <h4>Open Source</h4>
+            <p>Our code is 100% Open Source. Visit <a href="https://github.com/getfider/fider">getfider/fider</a> on GitHub.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-10 col-md-8 col-lg-6 text-center">
+          <h2>Get Feedback. Get Fider.</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-sm-0"></div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="pricing pricing-1 boxed boxed--lg boxed--border">
+            <h3>Self-Hosted</h3>
+            <span class="h2"><strong>FREE</strong></span>
+            <span class="type--fine-print">Free forever. Really :)</span>
+            <hr>
+            <ul>
+              <li><span class="checkmark bg--primary-1"></span><span>Feedback Site</span></li>
+              <li><span class="checkmark bg--primary-1"></span><span>Tags</span></li>
+              <li><span class="checkmark bg--primary-1"></span><span>Your Domain</span></li>
+              <li><span class="checkmark bg--primary-1"></span><span>Custom CSS</span></li>
+              <li><span class="checkmark bg--primary-1"></span><span>Private Site</span></li>
+              <li><span class="checkmark bg--primary-1"></span><span>and more ...</span></li>
+              <li><span class="unchecked bg-danger"></span><span>Support</span></li>
+              <li><span class="unchecked bg-danger"></span><span>Hosting</span></li>
+              <li><span class="unchecked bg-danger"></span><span>Automatic Updates</span></li>
+            </ul>
+            <hr>
+            <p>Take total control over your instance and data. Download Fider and install on your own servers.</p>
+            <a class="btn btn--primary" href="/docs/hosting-instance">
+              <span class="btn__text">
+                Learn how
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4  col-sm-6">
+          <div class="pricing pricing-1 boxed boxed--lg boxed--border boxed--emphasis">
+            <h3>Cloud</h3>
+            <span class="h2">
+              <strong>$0</strong><span class="month">/mo</span><span class="star"> *</span>
+            </span>
+            <span class="type--fine-print">* free until December/2018.</span>
+            <hr>
+            <ul>
+              <li><span class="checkmark bg--primary-1"></span><span>Feedback Site</span></li>
+              <li><span class="checkmark bg--primary-1"></span><span>Tags</span></li>
+              <li><span class="checkmark bg--primary-1"></span><span>Your Domain</span></li>
+              <li><span class="checkmark bg--primary-1"></span><span>Custom CSS</span></li>
+              <li><span class="checkmark bg--primary-1"></span><span>Private Site</span></li>
+              <li><span class="checkmark bg--primary-1"></span><span>and more ...</span></li>
+              <li><span class="checkmark bg--primary-1"></span><span>Support</span></li>
+              <li><span class="checkmark bg--primary-1"></span><span>Hosting</span></li>
+              <li><span class="checkmark bg--primary-1"></span><span>Automatic Updates</span></li>
+            </ul>
+            <hr>
+            <p>Sit back and relax. Sign up now and start using it in less than 60 seconds. No credit card required.</p>
+            <a class="btn btn--primary" href="https://login.fider.io/signup">
+              <span class="btn__text">
+                Sign up
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-0"></div>
+      </div>
+    </div>
+  </section>
+</main>
+{{ end }}

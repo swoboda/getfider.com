@@ -1,33 +1,31 @@
-{{ define "title"}} {{ .Title}} {{end}}
-{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "header"}}
+{{ partial "primary-header.html" . }}
+{{ end }}
+
+{{ define "footer"}}
+{{ partial "primary-footer.html" . }}
+{{ end }}
 
 {{ define "main"}}
-<div class="push-center blogpost" itemscope itemtype="http://schema.org/BlogPosting">
-    {{ template "_internal/schema.html" . }}
-    <div id="hero">
-        <h1 itemprop="headline">{{.Title}}</h1>
-        {{ if .Description }}
-            <blockquote itemprop="description">{{ .Description }}</blockquote>
-        {{ end }}
-        <time class="post-time">{{ partial "post/meta" . }}</time>
-    </div>
-    <div id="post-box">
-        <div id="post" itemprop="articleBody">
-            {{.Content | safeHTML}}
+<main class="blog-single">
+  <section>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+          <article>
+            <div class="article__title text-center">
+              <h1>{{ .Title }}</h1>
+              <p>{{ .Description }}</p>
+              <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+              <hr />
+            </div>
+            <div class="article__body">
+              {{ .Content }}
+            </div>
+          </article>
         </div>
-
-        <div class="">
-            {{ partial "post/byauthor" . }}
-            {{ partial "post/related-content" . }}
-        </div>
-
-        {{ if .Site.DisqusShortname }}
-        <article>
-            {{ template "_internal/disqus.html" . }}
-        </article>
-        {{ end }}
-            
+      </div>
     </div>
-</div>
+  </section>
+</main>
 {{ end }}
-{{ define "footer"}} {{ partial "footer.html" .}} {{ end }}

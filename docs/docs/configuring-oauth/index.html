@@ -1,148 +1,196 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Configuring OAuth  · Fider</title>
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.ico" >
+    <title>Configuring OAuth · Fider</title>
+    <meta name="description" content="Enable one click sign in">
 
-    
-    <meta name="description" content="Enable one click sign in"> 
-    
-
-    
-
-  <meta name="author" content="Fider">
-
-
-    <meta property="og:title" content="Configuring OAuth" />
-<meta property="og:description" content="Enable one click sign in" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://getfider.com/docs/configuring-oauth/" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-  <meta property="og:image" content="https://getfider.com/images/logo-small.png">
-
+    <meta property="og:title" content="Configuring OAuth · Fider">
+    <meta property="og:image" content="https://getfider.com/images/logo-small.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://getfider.com/" />
+    <meta property="og:description" content="Enable one click sign in">
 
     
       
 <script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-100812395-1', 'auto');
-ga('send', 'pageview');
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-100812395-1', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
     
-
-    
-
-    <link rel="shortcut icon" type="image/png" href="/images/favicon.ico" >
-
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/css/kube.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/master.css" rel="stylesheet" type="text/css">
-    <link href="/css/fider.css" rel="stylesheet" type="text/css">
-    <script src="/js/tocbot.min.js" type="text/javascript"></script>
-    <script src="/js/fider.js" type="text/javascript"></script>
+    <link href="/stack-theme/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/stack-theme/css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/stack-theme/css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/stack-theme/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/stack-theme/css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/stack-theme/css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/stack-theme/css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/stack-theme/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/fider.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
 
-
-  <body class="page-kube">
-    <header> <div class="show-sm">
-  <div id="nav-toggle-box">
-    <div id="nav-toggle-brand">
-      <a href="/">Fider</a>
+  <body>
+    
+    
+<main class="docs-single">
+  <div class="nav-container nav-container--sidebar" id="start">
+  <div class="nav-sidebar-column bg--dark">
+    <div class="text-center text-block">
+      <a href="/">
+        <img class="logo" alt="logo" src="/images/logo-100x100.png">
+      </a>
+      <h4>Fider<span class="color--primary">:docs</span></h4>
     </div>
-    <a data-component="toggleme" data-target="top" href="#" id="nav-toggle">
-      <i class="kube-menu"></i>
-    </a>
+    <hr>
+    <div class="text-block">
+      <ul class="menu-vertical">
+        <li>
+          <a href="/docs">
+            Home
+          </a>
+        </li>
+        
+          
+            
+              <li>
+                <a href="https://getfider.com/docs/hosting-instance/">
+                  &middot; Hosting your own instance
+                </a>
+              </li>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            
+              <li>
+                <a href="https://getfider.com/docs/configuring-oauth/">
+                  &middot; Configuring OAuth
+                </a>
+              </li>
+            
+          
+        
+          
+            
+          
+        
+          
+            
+              <li>
+                <a href="https://getfider.com/docs/how-to-enable-ssl/">
+                  &middot; How to enable SSL
+                </a>
+              </li>
+            
+          
+        
+          
+            
+              <li>
+                <a href="https://getfider.com/docs/how-to-show-legal-pages/">
+                  &middot; How to show Legal Pages
+                </a>
+              </li>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+      <ul class="menu-vertical">
+        <li>
+          <a href="/">
+            ← getfider.com
+          </a>
+        </li>
+      </ul>
+      <ul class="social-list list-inline list--hover">
+        <li>
+          <a href="https://github.com/getfider" target="_blank">
+              <i class="socicon socicon-github icon icon--xs"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/getfider" target="_blank">
+              <i class="socicon socicon-twitter icon icon--xs"></i>
+          </a>
+        </li>
+      </ul>
+      <div>
+        <span class="type--fine-print type--fade">
+          <span class="update-year">2018</span> Fider
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="nav-sidebar-column-toggle visible-xs visible-sm" data-toggle-class=".nav-sidebar-column;active">
+      <i class="stack-menu"></i>
   </div>
 </div>
-<div class="hide-sm" id="top">
-  <div id="top-brand">
-    <a href="/" title="home">
-      <img src="/images/logo-100x100.png" class="logo"/>
-      <span>Fider</span>
-    </a>
-  </div>
-  <nav id="top-nav-main">
-    <ul>
-    
-    
-      <li><a href="/blog" >Blog</a></li>
-    
-      <li><a href="/docs" >Docs</a></li>
-    
-      <li><a href="/about" >About</a></li>
-    
-    </ul>
-  </nav>
-</div> </header>
-    <main>
-  <div id="main">
-    <div id="hero">
-      <h1> Configuring OAuth </h1>
-      <p class="hero-lead">
-           Learn how to create Facebook and Google sign in apps and use it in your Fider instance.
-      </p>
-
-    </div> 
-    <div id="kube-component" class="content">
-    
-<nav id="contents">
-    <ol class="js-toc">
-    </ol>
-</nav>
-<script type="text/javascript">
-document.addEventListener("DOMContentLoaded",
-function(){
-tocbot.init({
-
-tocSelector: '.js-toc',
-
-contentSelector: '.content',
-
-headingSelector: 'h3'
-})
-}
-);
-</script>
-
-
-
-    <h3 class="section-head" id="h-why-required"><a href="#h-why-required">Configuring Social OAuth</a></h3>
-
-<p>Authentication is a key component of Fider platform. We take security and usability very seriously, which is why we&rsquo;ve decided to go with Social sign in as the main authentication method.</p>
+  <div class="main-container">
+    <section>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 col-lg-8">
+            <h1>Configuring OAuth</h1>
+            <p class="lead">Enable one click sign in</p>
+            <p>Authentication is a key component of Fider platform. We take security and usability very seriously, which is why we&rsquo;ve decided to go with Social sign in as the main authentication method.</p>
 
 <p>Setup is very easy and fast.</p>
 
-<h3 class="section-head" id="h-facebook"><a href="#h-facebook">Facebook</a></h3>
+<h3>Facebook</h3>
 
 <ol>
   <li>Create a facebook app at <a href="https://developers.facebook.com/apps">https://developers.facebook.com/apps</a>.
   <li>Set <code>OAUTH_FACEBOOK_APPID</code> and <code>OAUTH_FACEBOOK_SECRET</code> environment variables.</li>
 </ol>
 
-<h3 class="section-head" id="h-google"><a href="#h-google">Google</a></h3>
+<h3>Google</h3>
 
 <ol>
   <li>Create a facebook app at <a href="https://console.developers.google.com">https://console.developers.google.com</a>.
@@ -150,7 +198,7 @@ headingSelector: 'h3'
   <li>Set <code>OAUTH_GOOGLE_CLIENTID</code> and <code>OAUTH_GOOGLE_SECRET</code> environment variables.</li>
 </ol>
 
-<h3 class="section-head" id="h-github"><a href="#h-github">GitHub</a></h3>
+<h3>GitHub</h3>
 
 <ol>
   <li>Create a facebook app at <a href="https://github.com/settings/applications/new">https://github.com/settings/applications/new</a>.
@@ -158,11 +206,33 @@ headingSelector: 'h3'
   <li>Set <code>OAUTH_GITHUB_CLIENTID</code> and <code>OAUTH_GITHUB_SECRET</code> environment variables.</li>
 </ol>
 
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
 
     
-    </div>
-    </div>
-</main>
-    <footer id="footer"></footer>
+<a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+    <i class="stack-interface stack-up-open-big"></i>
+</a>
+
+    <script src="/stack-theme/js/jquery-3.1.1.min.js"></script>
+    <script src="/stack-theme/js/flickity.min.js"></script>
+    <script src="/stack-theme/js/easypiechart.min.js"></script>
+    <script src="/stack-theme/js/parallax.js"></script>
+    <script src="/stack-theme/js/typed.min.js"></script>
+    <script src="/stack-theme/js/datepicker.js"></script>
+    <script src="/stack-theme/js/isotope.min.js"></script>
+    <script src="/stack-theme/js/ytplayer.min.js"></script>
+    <script src="/stack-theme/js/lightbox.min.js"></script>
+    <script src="/stack-theme/js/granim.min.js"></script>
+    <script src="/stack-theme/js/jquery.steps.min.js"></script>
+    <script src="/stack-theme/js/countdown.min.js"></script>
+    <script src="/stack-theme/js/twitterfetcher.min.js"></script>
+    <script src="/stack-theme/js/spectragram.min.js"></script>
+    <script src="/stack-theme/js/smooth-scroll.min.js"></script>
+    <script src="/stack-theme/js/scripts.js"></script>
   </body>
 </html>

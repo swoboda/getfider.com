@@ -1,184 +1,98 @@
-/* HEADER */
-
-header #top {
-  margin: auto;
-  max-width: 1128px;
+section {
+  padding: 5em 0;
 }
 
-header .logo {
-  width: 40px;
-  vertical-align: middle;
+.cover .btn {
+  min-width: 150px;
+  padding-left: 0em;
+  padding-right: 0em;
 }
 
-header #top-nav-main a {
-  text-transform: uppercase;
-  font-size: 12px;
+.cover .actions {
+  margin-top: 0 !important;
 }
 
-header #top-brand a {
+.cover .actions > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+header .bar .logo {
+  max-height: 2.3em;
+}
+
+header .bar a:hover {
+  text-decoration: none;
+}
+
+header .bar .logo-title {
   font-size: 28px;
-  font-weight: 900;
   color: #000;
-  text-decoration: none;
-  line-height: 50px;
+  vertical-align: bottom;
 }
 
-header #top-brand span {
-  vertical-align: middle;
+img.screenshot,
+.blog-single figure img {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* FOOTER */
+i.icon--lg svg {
+  height: 84px;
+  width: 84px;
+}
 
-#footer {
-  margin: auto;
-  max-width: 1128px;
+.pricing .month {
+  font-size: 0.7em;
+}
+
+.pricing .star {
+  font-size: 0.5em;
+  color: #666666;
+}
+
+.pricing .unchecked {
+  display: inline-block;
+  position: relative;
+  width: 1.23809524em;
+  height: 1.23809524em;
+  border-radius: 50%;
   text-align: center;
-  display: block;
-  margin-bottom: 40px;
+  margin-right: 13px;
 }
 
-#footer nav ul {
-  text-align: center;
-  display: block;
+.pricing ul li .unchecked + span {
+  position: relative;
+  bottom: 3px;
 }
 
-@media (min-width: 767px) {
-  #footer nav ul li {
-    float: left;
-  }
+.pricing .unchecked:before {
+  content: '\2717';
+  color: #fff;
+  font-size: 11px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: -4px;
 }
 
-/* OTHERS */
-
-code {
-  background-color: #eee;
+.pricing-1 ul {
+  margin-bottom: 1em;
 }
 
-#features {
-  text-align: center;
+/*
+Documentation
+*/
+
+.docs-single .main-container ul,
+.docs-single .main-container ol {
+  margin-left: 2em;
 }
 
-.grid {
-  text-align: center;
-}
-.grid .row {
-  padding-bottom: 32px;
-  margin-bottom: 64px;
-}
-.grid .row .col {
-  padding: 10px;
-}
-.grid .row .col p {
-  color: rgba(0, 0, 0, 0.5);
+.docs-single .main-container ul li,
+.docs-single .main-container ol li {
+  margin-bottom: 0;
 }
 
-#post-list #posts {
-  text-align: left;
+.docs-single .main-container ul li {
+  list-style-type: circle;
 }
-
-figure img {
-  -webkit-box-shadow: 0 10px 10px 0 #cfcfcf;
-  -o-box-shadow: 0 10px 10px 0 #cfcfcf;
-  box-shadow: 0 10px 10px 0 #cfcfcf;
-}
-
-/* FEATURES */
-
-#features .text {
-  text-align: left;
-  padding-right: 20px;
-}
-
-#features .col img {
-  -webkit-box-shadow: 0 10px 10px 0 #cfcfcf;
-  -o-box-shadow: 0 10px 10px 0 #cfcfcf;
-  box-shadow: 0 10px 10px 0 #cfcfcf;
-}
-
-/* BLOG */
-
-.blogpost #hero h1 {
-  font-size: 48px;
-  line-height: 60px;
-}
-
-#posts time {
-  float: right;
-}
-
-#posts h6 {
-  font-size: 14px;
-  color: #1eabf2;
-  font-weight: normal;
-  border-bottom: 1px solid gainsboro;
-}
-
-#posts h6 a {
-  text-decoration: none;
-}
-
-#posts h6 a:hover{
-  text-decoration: underline;
-}
-
-/* HOSTING */
-
-#hosting .hosting-grid {
-  text-align: center;
-}
-
-#hosting .selfhosted-option {
-  border-top: 5px solid #eeb523;
-}
-
-#hosting .cloud-option {
-  border-top: 5px solid #35c53f;
-}
-
-#hosting .option {
-  box-shadow: 0 5px 15px rgba(39, 40, 44, 0.15);
-  padding: 20px;
-}
-
-#hosting .option img {
-  width: 100px;
-}
-
-#hosting .option .price {
-  font-size: 36px;
-  display: block;
-  margin-bottom: 30px;
-}
-
-#hosting .option .price .beta {
-  font-size: 24px;
-  vertical-align: top;
-  color: rgba(0, 0, 0, 0.5);
-}
-
-#hosting .option .price-notes {
-  display: block;
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.5);
-}
-
-#hosting .option .header {
-  padding: 10px 0px;
-}
-
-#hosting .option .header img {
-  padding: 10px 0px;
-}
-
-#hosting .option .header h3 {
-  text-transform: uppercase;
-}
-
-#hosting .option .description {
-  padding: 10px 0px;
-  min-height: 120px;
-}
-
-/* PRICING */

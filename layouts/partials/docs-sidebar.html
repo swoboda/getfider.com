@@ -1,0 +1,58 @@
+<div class="nav-container nav-container--sidebar" id="start">
+  <div class="nav-sidebar-column bg--dark">
+    <div class="text-center text-block">
+      <a href="/">
+        <img class="logo" alt="logo" src="/images/logo-100x100.png">
+      </a>
+      <h4>Fider<span class="color--primary">:docs</span></h4>
+    </div>
+    <hr>
+    <div class="text-block">
+      <ul class="menu-vertical">
+        <li>
+          <a href="/docs">
+            Home
+          </a>
+        </li>
+        {{ range .Site.Pages }}
+          {{ if eq .Section "docs" }}
+            {{ if .IsPage }}
+              <li>
+                <a href="{{ .Permalink }}">
+                  &middot; {{ .Title }}
+                </a>
+              </li>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </ul>
+      <ul class="menu-vertical">
+        <li>
+          <a href="/">
+            ← getfider.com
+          </a>
+        </li>
+      </ul>
+      <ul class="social-list list-inline list--hover">
+        <li>
+          <a href="https://github.com/getfider" target="_blank">
+              <i class="socicon socicon-github icon icon--xs"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/getfider" target="_blank">
+              <i class="socicon socicon-twitter icon icon--xs"></i>
+          </a>
+        </li>
+      </ul>
+      <div>
+        <span class="type--fine-print type--fade">
+          <span class="update-year">2018</span> Fider
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="nav-sidebar-column-toggle visible-xs visible-sm" data-toggle-class=".nav-sidebar-column;active">
+      <i class="stack-menu"></i>
+  </div>
+</div>
