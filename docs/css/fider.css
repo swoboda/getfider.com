@@ -21,6 +21,14 @@ header .bar .logo {
   max-height: 2.3em;
 }
 
+header .bar.hidden-xs .menu-horizontal a {
+  font-size: 1em;
+}
+
+header .bar .menu-horizontal a {
+  font-size: 1.2em;
+}
+
 header .bar a:hover {
   text-decoration: none;
 }
