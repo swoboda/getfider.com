@@ -40,7 +40,8 @@ header .bar .logo-title {
 }
 
 img.screenshot,
-.blog-single figure img {
+.blog-single figure img,
+.docs-single figure img  {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -103,4 +104,14 @@ Documentation
 
 .docs-single .main-container ul li {
   list-style-type: circle;
+}
+
+.alert {
+  padding: 5px 10px;
+}
+
+.bg--warning {
+  border: 1px solid #e6a005;
+  color: rgb(112, 51, 2);
+  background: rgba(248, 187, 5, 0.22);
 }
