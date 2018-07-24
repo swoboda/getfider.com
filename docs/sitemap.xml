@@ -67,6 +67,10 @@
   </url>
   
   <url>
+    <loc>https://getfider.com/blog/version-0.15.0/</loc>
+  </url>
+  
+  <url>
     <loc>https://getfider.com/categories/</loc>
     <priority>0</priority>
   </url>

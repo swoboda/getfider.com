@@ -134,5 +134,15 @@ This will help you quickly find most wanted ideas and those that are currently t
   2. Much simpler Sign up / Installation process On previous versions, installing a new Fider instance required some SQL commands to be run.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://getfider.com/blog/version-0.15.0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://getfider.com/blog/version-0.15.0/</guid>
+      <description>REMEMBER THAT NOT ALL PR HAVE ISSUE
+ robots.txt Custom OAuth  </description>
+    </item>
+    
   </channel>
 </rss>

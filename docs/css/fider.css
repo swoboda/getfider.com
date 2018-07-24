@@ -50,6 +50,10 @@ i.icon--lg svg {
   width: 84px;
 }
 
+.pricing .h2 {
+  min-height: 50px;
+}
+
 .pricing .month {
   font-size: 0.7em;
 }
@@ -59,33 +63,43 @@ i.icon--lg svg {
   color: #666666;
 }
 
-.pricing .unchecked {
-  display: inline-block;
-  position: relative;
-  width: 1.23809524em;
-  height: 1.23809524em;
-  border-radius: 50%;
-  text-align: center;
-  margin-right: 13px;
+.pricing {
+  border-top: 2px solid #4a90e2 !important; 
 }
 
-.pricing ul li .unchecked + span {
-  position: relative;
-  bottom: 3px;
+.pricing:hover {
+  border: 1px solid #4a90e2; 
 }
 
-.pricing .unchecked:before {
-  content: '\2717';
-  color: #fff;
-  font-size: 11px;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: -4px;
+.pricing .btn__text {
+  font-size: 1em;
+  text-transform: uppercase;
 }
 
 .pricing-1 ul {
   margin-bottom: 1em;
+}
+
+.pricing-1 ul li span {
+  font-weight: 600;
+}
+
+.checked {
+  margin-top: -3px;
+  width: 17px;
+  height: 17px;
+  color: #00b75a;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.unchecked {
+  margin-top: -3px;
+  width: 17px;
+  height: 17px;
+  color: #cd3100;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 /*
@@ -114,4 +128,23 @@ Documentation
   border: 1px solid #e6a005;
   color: rgb(112, 51, 2);
   background: rgba(248, 187, 5, 0.22);
+}
+
+/* 
+Pricing 
+*/
+
+.strikeout {
+  position: relative;
+}
+
+.strikeout::after {
+  border-bottom: 0.125em solid rgba(255, 0, 0, 0.5);
+  content: "";
+  left: 0;
+  line-height: 1em;
+  margin-top: calc(0.125em / 2 * -1);
+  position: absolute;
+  right: 0;
+  top: 50%;
 }

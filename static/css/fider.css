@@ -50,6 +50,10 @@ i.icon--lg svg {
   width: 84px;
 }
 
+.pricing .h2 {
+  min-height: 50px;
+}
+
 .pricing .month {
   font-size: 0.7em;
 }
@@ -59,8 +63,43 @@ i.icon--lg svg {
   color: #666666;
 }
 
+.pricing {
+  border-top: 2px solid #4a90e2 !important; 
+}
+
+.pricing:hover {
+  border: 1px solid #4a90e2; 
+}
+
+.pricing .btn__text {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
 .pricing-1 ul {
   margin-bottom: 1em;
+}
+
+.pricing-1 ul li span {
+  font-weight: 600;
+}
+
+.checked {
+  margin-top: -3px;
+  width: 17px;
+  height: 17px;
+  color: #00b75a;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.unchecked {
+  margin-top: -3px;
+  width: 17px;
+  height: 17px;
+  color: #cd3100;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 /*
@@ -94,56 +133,6 @@ Documentation
 /* 
 Pricing 
 */
-
-.pricing .checked {
-  display: inline-block;
-  position: relative;
-  width: 1.23809524em;
-  height: 1.23809524em;
-  border-radius: 50%;
-  text-align: center;
-  margin-right: 13px;
-}
-
-.pricing ul li .checked + span {
-  position: relative;
-  bottom: 3px;
-}
-
-.pricing .checked:before {
-  content: '\2714';
-  color: #fff;
-  font-size: 11px;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: -4px;
-}
-
-.pricing .unchecked {
-  display: inline-block;
-  position: relative;
-  width: 1.23809524em;
-  height: 1.23809524em;
-  border-radius: 50%;
-  text-align: center;
-  margin-right: 13px;
-}
-
-.pricing ul li .unchecked + span {
-  position: relative;
-  bottom: 3px;
-}
-
-.pricing .unchecked:before {
-  content: '\2717';
-  color: #fff;
-  font-size: 11px;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: -4px;
-}
 
 .strikeout {
   position: relative;
