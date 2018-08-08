@@ -80,10 +80,10 @@ services:
       # EMAIL_MAILGUN_API: key-yourkeygoeshere
       # EMAIL_MAILGUN_DOMAIN: yourdomain.com
 
-      # EMAIL_SMTP_HOST=smtp.yourdomain.com
-      # EMAIL_SMTP_PORT=587
-      # EMAIL_SMTP_USERNAME=user@yourdomain.com
-      # EMAIL_SMTP_PASSWORD=s0m3p4ssw0rd
+      # EMAIL_SMTP_HOST: smtp.yourdomain.com
+      # EMAIL_SMTP_PORT: 587
+      # EMAIL_SMTP_USERNAME: user@yourdomain.com
+      # EMAIL_SMTP_PASSWORD: s0m3p4ssw0rd
       
       ###
       # OPTIONAL
