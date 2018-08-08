@@ -1,7 +1,7 @@
 build:
-	rm -rf ./docs
+	rm -rf ./public
 	hugo
-	cp CNAME docs
+	cp CNAME public/
 
 watch:
 	hugo server
