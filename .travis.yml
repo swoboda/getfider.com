@@ -4,4 +4,14 @@ install:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.46/hugo_0.46_Linux-64bit.deb
   - sudo dpkg -i hugo*.deb
   - pip install Pygments
+
+test:
   - make build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: public
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
