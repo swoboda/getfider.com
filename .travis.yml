@@ -5,7 +5,7 @@ install:
   - sudo dpkg -i hugo*.deb
   - pip install Pygments
 
-test:
+script:
   - make build
 
 deploy:
