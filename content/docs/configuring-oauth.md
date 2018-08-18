@@ -185,6 +185,35 @@ Before enabling any provider on Fider, we highly recommend that you keep it disa
   <li>You can now <a href="#oauth-testing">Test</a> this configuration</li>
 </ol>
 
+<h4>GitLab</h4>
+
+<ol>
+  <li>Navigate to <a href="https://gitlab.com/oauth/applications">https://gitlab.com/oauth/applications</a></li>
+  <li>Input an application name, for example, Fider</li>
+  <li>GitLab requires you to input the OAuth Redirect URL upon registration. For now, just type any valid URL like http://example.org, we'll change this later</li>
+  <li>Select <strong>read_user</strong> on the list of scopes</li>
+  <li>After saving, take note of the <strong>Application Id</strong> and <strong>Secret</strong> that is shown</li>
+  <li>
+    Fill Fider OAuth form as follows and then press Save
+    <ul>
+      <li><strong>Display Name:</strong> GitLab</li>
+      <li><strong>Client ID:</strong> <code>use the Application Id given by GitLab</code></li>
+      <li><strong>Client Secret:</strong> <code>use the Secret given by GitLab</code></li>
+      <li><strong>Authorize URL:</strong> https://gitlab.com/oauth/authorize</li>
+      <li><strong>Token URL:</strong> https://gitlab.com/oauth/token</li>
+      <li><strong>Profile API URL:</strong> https://gitlab.com/api/v4/user</li>
+      <li><strong>Scope:</strong> read_user</li>
+      <li><strong>JSON Path ID:</strong> id</li>
+      <li><strong>JSON Path Name:</strong> name</li>
+      <li><strong>JSON Path Email:</strong> email</li>
+      <li><strong>Status:</strong> Disabled</li>
+    </ul>
+  </li>
+  <li>Find GitLab on the list of OAuth providers and copy the callback URL</li>
+  <li>On GitLab, navigate to your newly created application, click Edit and replace the Redirect URL with the copied callback URL from Fider</li>
+  <li>You can now <a href="#oauth-testing">Test</a> this configuration</li>
+</ol>
+
 <h4>Twitter</h4>
 
 Unfortunately Twitter doesn't fully implement the OAuth2 protocol and the authorization flow. This means we cannot use this process to add Twitter authentication to Fider.
