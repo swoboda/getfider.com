@@ -28,7 +28,7 @@ Before enabling any provider on Fider, we highly recommend that you keep it disa
     <div class="col-sm-6">
       <figure>
         <img src="/images/docs/good-oauth-echo-response.png" />
-        <figcaption>A correcly configured OAuth</figcaption>
+        <figcaption>A correctly configured OAuth</figcaption>
       </figure>
     </div>
     <div class="col-sm-6">
