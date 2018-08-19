@@ -114,8 +114,8 @@ Before enabling any provider on Fider, we highly recommend that you keep it disa
       <li><strong>Display Name:</strong> Azure AD</li>
       <li><strong>Client ID:</strong> <code>use the Application ID given by Azure</code></li>
       <li><strong>Client Secret:</strong> <code>use the Key Value you generated in Azure</code></li>
-      <li><strong>Authorize URL:</strong> https://login.microsoftonline.com/<code>{yourTenantId}</code>/oauth2/authorize</li>
-      <li><strong>Token URL:</strong> https://login.microsoftonline.com/<code>{yourTenantId}</code>/oauth2/token</li>
+      <li><strong>Authorize URL:</strong> https://login.microsoftonline.com/<code>{yourTenantId}</code>/oauth2/v2.0/authorize</li>
+      <li><strong>Token URL:</strong> https://login.microsoftonline.com/<code>{yourTenantId}</code>/oauth2/v2.0/token</li>
       <li><strong>Profile API URL:</strong> https://graph.microsoft.com/v1.0/me</li>
       <li><strong>Scope:</strong> User.Read</li>
       <li><strong>JSON Path ID:</strong> id</li>
