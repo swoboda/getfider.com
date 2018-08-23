@@ -2,7 +2,7 @@
 date = "2018-06-30"
 title = "Fider 0.14 released with improved foundation and minor features"
 categories = ["releases"]
-description = "In this next Fider release, we've reworked improved our foundation to support the continued growth"
+description = "In this next Fider release, we've improved our foundation to support the continued growth"
 author = "goenning"
 +++
 
