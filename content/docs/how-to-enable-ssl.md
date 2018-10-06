@@ -1,9 +1,7 @@
 +++
 title = "How to enable SSL"
 description = "Host your instance under the HTTPS protocol"
-weight = 0
-draft = false
-toc = true
+category = "Self-Hosted"
 bref = "Follow this quick tutorial to know how you can host your instance under the HTTPS protocol"
 +++
 

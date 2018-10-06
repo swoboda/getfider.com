@@ -1,9 +1,7 @@
 +++
 title = "How to show Legal Pages"
 description = "Display your own Privacy Policy and Terms of Service"
-weight = 0
-draft = false
-toc = true
+category = "Self-Hosted"
 bref = "Follow this quick tutorial to know how to add your own Privacy Policy and Terms of Service"
 +++
 

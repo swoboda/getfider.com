@@ -25,13 +25,15 @@
       <div class="container">
         <div class="row">
           {{ range .Data.Pages }}
-            <div class="col-md-4">
-              <div class="feature feature-1 boxed boxed--border">
-                <h5>{{ .Title }}</h5>
-                <p>{{ .Params.bref }}</p>
-                <a href="{{ .Permalink }}">Read more →</a>
+            {{ if .Title }}
+              <div class="col-md-4">
+                <div class="feature feature-1 boxed boxed--border">
+                  <h5>{{ .Title }}</h5>
+                  <p>{{ .Params.bref }}</p>
+                  <a href="{{ .Permalink }}">Read more →</a>
+                </div>
               </div>
-            </div>
+            {{ end }}
           {{ end }}
         </div>
       </div>

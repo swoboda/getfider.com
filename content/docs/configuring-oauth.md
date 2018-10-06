@@ -1,9 +1,7 @@
 +++
 title = "Configuring OAuth"
 description = "One-click sign in made easy"
-weight = 0
-draft = false
-toc = true
+category = "How To"
 bref = "Learn how to create Facebook and Google sign in apps and use it in your Fider instance"
 +++
 

@@ -2,6 +2,17 @@ section {
   padding: 5em 0;
 }
 
+td code,
+p code {
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  display: inline-block;
+  color: #393939;
+  padding: 0px 4px;
+  line-height: 20px;
+}
+
 .cover .btn {
   min-width: 150px;
   padding-left: 0em;
@@ -147,4 +158,30 @@ Pricing
   position: absolute;
   right: 0;
   top: 50%;
+}
+
+/* 
+Docs 
+*/
+
+.docs-toc span.category {
+  text-transform: uppercase;
+  font-size: 100%;
+  color: #FFF !important;
+  margin-top: 20px;
+  display: block;
+}
+
+.docs-single .main-container h1,
+.docs-single .main-container h2,
+.docs-single .main-container h3,
+.docs-single .main-container h4,
+.docs-single .main-container h5,
+.docs-single .main-container h6 {
+  color: #4a90e2 !important;
+}
+
+.docs-single .main-container table th,
+.docs-single .main-container table td {
+  padding: 5px;
 }

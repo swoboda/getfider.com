@@ -1,9 +1,7 @@
 +++
 title = "Hosting your own instance"
 description = "Up and running in under a minute"
-weight = 100
-draft = false
-toc = true
+category = "Self-Hosted"
 bref = "A one minute guide on how to get your own Fider instance up and running"
 +++
 
