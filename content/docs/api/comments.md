@@ -4,6 +4,7 @@
   <li><a href="#list-comments">List Comments</a></li>
   <li><a href="#add-comment">Add a Comment</a></li>
   <li><a href="#edit-comment">Edit a Comment</a></li>
+  <li><a href="#delete-comment">Delete a Comment</a></li>
 </ul>
 
 <h4 id="list-comments">List Comments</h4>
@@ -157,6 +158,49 @@ POST <baseURL>/api/v1/posts/47/comments/5675
 {
   "content": "Agreed, we need to act on this as soon as possible"
 }
+```
+
+<strong>Response</strong>
+
+```
+200 OK
+---
+{}
+```
+
+<h4 id="delete-comment">Delete a Comment</h4>
+
+- <strong>Authentication:</strong> Required
+- <strong>Required Role:</strong> Collaborator or Administrator to delete any comment. Visitor can only delete their own comments.
+
+```
+DELETE /api/v1/posts/{number}/comments/{id}
+```
+
+<strong>Parameters</strong>
+
+<table>
+  <tr>
+    <th width="120">Name</th>
+    <th width="90">Type</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>number</code></td>
+    <td><code>number</code></td>
+    <td><strong>Required.</strong> The number of the post that has given comment.</td>
+  </tr>
+  <tr>
+    <td><code>id</code></td>
+    <td><code>number</code></td>
+    <td><strong>Required.</strong> The id of the comment to be edited.</td>
+  </tr>
+</table>
+
+<strong>Example</strong>
+
+```
+DELETE <baseURL>/api/v1/posts/47/comments/5675
 ```
 
 <strong>Response</strong>
