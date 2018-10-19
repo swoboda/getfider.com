@@ -4,7 +4,7 @@ Some API endpoint require authentication to work. This section explains how to m
 
 The first step is to generate an API Key on your user profile. Sign in on Fider and navigate to <strong>Settings -> API Key</strong> and click on <strong>Regenerate API Key</strong>. An API Key will be shown. Take note of it as you won't be able to retrieve this key again. If your Key is lost or has been compromised, you can always repeat this process to generate a new Key.
 
-API Key is only available for users with <strong>Collaborator</strong> or <strong>Administrator</strong> role. <strong>Visitors</strong> are not allowed to use authenticated API endpoint.
+API Key is only available for users with <strong>Collaborator</strong> or <strong>Administrator</strong> role. <strong>Visitors</strong> are not allowed to use any authenticated API endpoint.
 
 With the API Key on hands, it's now possible to send authenticated requests the API using the <strong>Authorization</strong> HTTP Header as shown below.
 

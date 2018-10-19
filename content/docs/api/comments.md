@@ -119,7 +119,7 @@ POST <baseURL>/api/v1/posts/47/comments
 <h4 id="edit-comment">Edit a Comment</h4>
 
 - <strong>Authentication:</strong> Required
-- <strong>Required Role:</strong> Collaborator or Administrator to edit any comment. Visitor can only edit their own comments.
+- <strong>Required Role:</strong> Collaborator or Administrator.
 
 ```
 PUT /api/v1/posts/{number}/comments/{id}
@@ -171,7 +171,7 @@ POST <baseURL>/api/v1/posts/47/comments/5675
 <h4 id="delete-comment">Delete a Comment</h4>
 
 - <strong>Authentication:</strong> Required
-- <strong>Required Role:</strong> Collaborator or Administrator to delete any comment. Visitor can only delete their own comments.
+- <strong>Required Role:</strong> Collaborator or Administrator.
 
 ```
 DELETE /api/v1/posts/{number}/comments/{id}

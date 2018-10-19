@@ -8,7 +8,7 @@
 <h4 id="add-vote">Vote on a Post</h4>
 
 - <strong>Authentication:</strong> Required
-- <strong>Required Role:</strong> Any Role
+- <strong>Required Role:</strong> Collaborator or Administrator
 
 When casting a vote upon a post, the vote is registered under the current authenticated user. Impersonate another user to vote on behalf of them.
 
@@ -48,7 +48,7 @@ POST <baseURL>/api/v1/posts/47/votes
 <h4 id="remove-vote">Remove Vote from on a Post</h4>
 
 - <strong>Authentication:</strong> Required
-- <strong>Required Role:</strong> Any Role
+- <strong>Required Role:</strong> Collaborator or Administrator
 
 When removing the vote from a post, the vote is removed from the current authenticated user. Impersonate another user to remove votes on behalf of them.
 

@@ -99,7 +99,7 @@ GET <baseURL>/api/v1/posts?view=completed&query=open+links&limit=50
 <h4 id="create-post">Create a Post</h4>
 
 - <strong>Authentication:</strong> Required
-- <strong>Required Role:</strong> Any Role
+- <strong>Required Role:</strong> Collaborator or Administrator
 
 ```
 POST /api/v1/posts
