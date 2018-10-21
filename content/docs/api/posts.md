@@ -2,6 +2,7 @@
 
 <ul>
   <li><a href="#list-posts">List Posts</a></li>
+  <li><a href="#get-post">Get a Post</a></li>
   <li><a href="#create-post">Create a Post</a></li>
   <li><a href="#edit-post">Edit a Post</a></li>
   <li><a href="#delete-post">Delete a Post</a></li>
@@ -94,6 +95,71 @@ GET <baseURL>/api/v1/posts?view=completed&query=open+links&limit=50
     ...
   }
 ]
+```
+
+<h4 id="get-post">Get a Post</h4>
+
+- <strong>Authentication:</strong> Optional
+
+```
+GET /api/v1/posts/{number}
+```
+
+<strong>Parameters</strong>
+
+<table>
+  <tr>
+    <th width="80">Name</th>
+    <th width="90">Type</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>number</code></td>
+    <td><code>number</code></td>
+    <td><strong>Required.</strong> The number of the post to retrieve.</td>
+  </tr>
+  <tr>
+</table>
+
+<strong>Example</strong>
+
+```
+GET <baseURL>/api/v1/posts/65
+```
+
+<strong>Response</strong>
+
+```
+200 OK
+---
+{
+  "id": 4315,
+  "number": 65,
+  "title": "Open links in new tab",
+  "slug": "open-links-in-new-tab",
+  "description": "When somebody pastes a link in the description of an item, it has to open link in a new tab so you don't lose focus in the app",
+  "createdAt": "2018-05-16T13:50:34.579281Z",
+  "user": {
+    "id": 45642,
+    "name": "Jon Snow",
+    "role": "visitor"
+  },
+  "hasVoted": true,
+  "votesCount": 34,
+  "commentsCount": 0,
+  "status": "completed",
+  "response": {
+    "text": "This is now available on `v0.14`. Links from any markdown text will open in a new tab.",
+    "respondedAt": "2018-06-13T17:48:27.073178Z",
+    "user": {
+      "id": 8,
+      "name": "Arya Stark",
+      "role": "administrator"
+    },
+    "original": null
+  },
+  "tags": ["hard","critical"]
+}
 ```
 
 <h4 id="create-post">Create a Post</h4>
