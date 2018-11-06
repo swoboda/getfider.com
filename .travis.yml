@@ -6,6 +6,7 @@ install:
   - pip install Pygments
 
 script:
+  - hugo version
   - make build
 
 deploy:
