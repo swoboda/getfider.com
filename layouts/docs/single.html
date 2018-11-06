@@ -9,16 +9,19 @@
 
 {{ define "main"}}
 <main class="docs-single">
-  {{ partial "docs-sidebar.html" . }}
-  <div class="main-container">
-    <section>
+  <div class="sidebar">
+    {{ partial "docs-sidebar.html" . }}
+  </div>
+  <div class="body">
+    {{ partial "docs-header.html" . }}
+    <section class="section">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-12 col-lg-8">
-            <h1>{{ .Title }}</h1>
-            <p class="lead">{{ .Description }}</p>
-            {{ .Content }}
-          </div>
+        <h1 class="title">{{ .Title }}</h1>
+        <h2 class="subtitle">
+          {{ .Description }}
+        </h2>
+        <div class="content">
+          {{ .Content }}
         </div>
       </div>
     </section>

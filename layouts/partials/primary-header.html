@@ -1,38 +1,32 @@
 <header>
-  <div class="bar bar--sm visible-xs">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="container">
-      <div class="row">
-        <div class="col-6 col-md-2">
-          <a href="/">
-            <img class="logo" alt="logo" src="/images/logo-100x100.png">
-            <span class="logo-title">Fider</span>
-          </a>
-        </div>
-        <div class="col-6 col-md-10 text-right">
-          <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
-            <i class="icon icon--sm stack-interface stack-menu"></i>
-          </a>
-        </div>
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <img class="logo" alt="logo" src="/images/logo-100x100.png">
+          <span class="logo-title">Fider</span>
+        </a>
+    
+        <a id="site-burger" role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
       </div>
-    </div>
-  </div>
-  <nav id="menu1" class="bar bar--sm bar-1 hidden-xs">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-3 hidden-xs">
-          <div class="bar__module">
-            <a href="/">
-              <img class="logo" alt="logo" src="/images/logo-100x100.png">
-              <span class="logo-title">Fider</span>
-            </a>
-          </div>
+    
+      <div class="navbar-menu">
+        <div class="navbar-start">
         </div>
-        <div class="col-lg-9 col-md-9 text-right">
-          <div class="bar__module">
-            <ul class="menu-horizontal">
-              <li><a href="/blog">Blog</a></li>
-              <li><a href="/docs">Docs</a></li>
-            </ul>
+    
+        <div class="navbar-end">
+          <a class="navbar-item" href="/blog">Blog</a>
+          <a class="navbar-item" href="/docs">Documentation</a>
+          <div class="navbar-item">
+            <div class="buttons">
+              <a href="#pricing" class="button is-primary">
+                <strong>Get Started</strong>
+              </a>
+            </div>
           </div>
         </div>
       </div>

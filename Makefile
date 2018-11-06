@@ -4,6 +4,6 @@ build:
 	cp CNAME public/
 
 watch:
-	hugo server
+	hugo server --disableFastRender
 
 .DEFAULT_GOAL := build

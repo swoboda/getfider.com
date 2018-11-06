@@ -8,40 +8,24 @@
 
 {{ define "main"}}
 <main class="blog-list">
-  <section class="text-center">
+  <section class="section">
     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1>{{ .Title }}</h1>
-          <p class="lead">
-            {{ .Description }}
-          </p>
-          <hr />
-        </div>
-      </div>
+      <h1 class="title">{{ .Title }}</h1>
+      <h2 class="subtitle">
+          {{ .Description }}
+      </h2>
     </div>
   </section>
-
-  <section class="space--sm">
+  <section class="section">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-10 col-lg-8">
-          <div class="masonry masonry-blog-list">
-            <div class="masonry__container masonry--active">
-              {{ range .Data.Pages }}
-                <article class="masonry__item filter-web-design" data-masonry-filter="Web Design">
-                  <div class="article__title text-left">
-                    <a href="{{ .Permalink }}">
-                      <h3>{{ .Title }}</h3>
-                    </a> 
-                    <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-                  </div>
-                </article> 
-              {{ end }}
-            </div>
-          </div>
-        </div>
-      </div>
+      {{ range .Data.Pages }}
+        <article>
+          <a href="{{ .Permalink }}">
+            <h3>{{ .Title }}</h3>
+          </a> 
+          <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        </article> 
+      {{ end }}
     </div>
   </section>
 </main>

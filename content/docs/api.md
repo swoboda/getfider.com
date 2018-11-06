@@ -1,5 +1,5 @@
 +++
-title = "API Documentation"
+title = "API Reference"
 description = "Integrate your App with Fider"
 bref = "Everything you need to know on how to integrate your App with Fider"
 +++
