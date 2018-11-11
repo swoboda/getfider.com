@@ -29,17 +29,20 @@ GET <baseURL>/api/v1/users
   {
     "id": 3,
     "name": "Arya Stark",
-    "role": "administrator"
+    "role": "administrator",
+    "status": "active",
   },
   {
     "id": 5,
     "name": "Jon Snow",
-    "role": "visitor"
+    "role": "visitor",
+    "status": "active"
   },
   {
     "id": 24,
     "name": "The Queen",
-    "role": "collaborator"
+    "role": "collaborator",
+    "status": "blocked"
   },
   {
     ...
