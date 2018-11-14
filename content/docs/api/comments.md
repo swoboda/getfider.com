@@ -2,6 +2,7 @@
 
 <ul>
   <li><a href="#list-comments">List Comments</a></li>
+  <li><a href="#get-comment">Get a Comment</a></li>
   <li><a href="#add-comment">Add a Comment</a></li>
   <li><a href="#edit-comment">Edit a Comment</a></li>
   <li><a href="#delete-comment">Delete a Comment</a></li>
@@ -68,6 +69,64 @@ GET <baseURL>/api/v1/posts/47/comments
     }
   }
 ]
+```
+
+<h4 id="get-comment">Get a Comment</h4>
+
+- <strong>Authentication:</strong> Optional
+
+```
+GET /api/v1/posts/{number}/comments/{id}
+```
+
+<strong>Parameters</strong>
+
+<table>
+  <tr>
+    <th width="80">Name</th>
+    <th width="90">Type</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>number</code></td>
+    <td><code>number</code></td>
+    <td><strong>Required.</strong> The number of the post to retrieve.</td>
+  </tr>
+  <tr>
+    <td><code>id</code></td>
+    <td><code>number</code></td>
+    <td><strong>Required.</strong> The id of the comment to be retrieved.</td>
+  </tr>
+  <tr>
+</table>
+
+<strong>Example</strong>
+
+```
+GET <baseURL>/api/v1/posts/47/comments/68
+```
+
+<strong>Response</strong>
+
+```
+200 OK
+---
+{
+  "id":68,
+  "content":"Definitely. Just do it!",
+  "createdAt":"2017-07-26T06:49:03.951383Z",
+  "user":{
+    "id":23,
+    "name":"Darth Vader",
+    "role":"visitor"
+  },
+  "editedAt":"2018-09-29T17:37:59.516909Z",
+  "editedBy":{
+    "id":1,
+    "name":"Jon Snow",
+    "role":"administrator"
+  }
+}
 ```
 
 <h4 id="add-comment">Add a Comment</h4>
