@@ -236,61 +236,120 @@ main {
 
   .pricing-table {
     padding: 25px;
-    .box {
-      padding: 0;
-      .box-heading {
-        background-color: $color3;
+
+    .which {
+      h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      .plan {
+        background-color: lighten($color5, 32%);
+        border-radius: 5px;
+        font-weight: bold;
+        color: $color5;
+        padding: 5px;
+      }
+    }
+
+    .columns {
+      @include media("<desktop") {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    }
+
+    table {
+      width: 100%;
+      border: 1px solid rgba(90,122,190,.08);
+      box-shadow: 0 2px 4px 0 rgba(90,122,190,.12);
+      border-radius: 6px;
+
+      .responsive-th {
+        color: $color5;
+        display: none;
+        margin-right: 5px;
+      }
+
+      @include media("<desktop") {
+        thead {
+          display: none;
+        }
+        tr, tr td, tr th {
+          display: block;
+          width: 100%;
+        }
+        .responsive-th {
+          display: inline-block;
+        }
+      }
+
+      tfoot {
+        td {
+          background-color: #f6f9fc;
+        }
+      }
+
+      th {
+        background-color: #f6f9fc;
+        color: $color5;
+        font-size: 20px;
+      }
+      tr {
+        border: 1px solid rgba(90,122,190,.08);
+        &.price {
+          background-color: #f6f9fc;
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+      th, td {
         padding: 10px;
         text-align: center;
-        text-transform: uppercase;
-        h3 {
-          font-size: 20px;
-        }
-      }
-      .box-body {
-        padding: 40px;
-      }
-      .box-footer {
-        .button {
-          width: 100%;
-          height: 50px;
-          border-top-left-radius: 0;
-          border-top-right-radius: 0;
-        }
-      }
-      &:hover {
-        border: 1px solid lighten($color1, 30%);
-        box-shadow: 0 2px 4px 0 0 lighten($color1, 30%);
-      }
-      .h2 {
-        font-size: 40px;
-        font-weight: 300;
-        display: block;
-      }
-      .currency {
-        font-size: 30px;
-        font-weight: 400;
-        vertical-align: text-top;
-      }
-      .month {
-        font-size: 16px;
-        font-weight: 500;
-      }
-      .info {
-        font-size: 14px;
-        color: #666666;
-      }
-      .star {
-        font-size: 16px;
-        color: #666666;
-      }
-      ul {
-        li {
-          padding: 2px;
-          font-weight: 500;
-          i {
-            margin-right: 10px;
+        .h2 {
+          font-size: 40px;
+          @include media("<desktop") {
+            font-size: 26px;
           }
+          font-weight: 300;
+          display: block;
+        }
+        .currency {
+          font-size: 30px;
+          @include media("<desktop") {
+            font-size: 20px;
+          }
+          font-weight: 400;
+          vertical-align: text-top;
+        }
+        .month {
+          font-size: 16px;
+          @include media("<desktop") {
+            font-size: 12px;
+          }
+          font-weight: 500;
+        }
+        .info {
+          color: #666666;
+        }
+        .star {
+          font-size: 16px;
+          color: #666666;
+        }
+        .strikeout {
+          position: relative;
+        }
+        .strikeout::after {
+          border-bottom: 0.125em solid rgba(255, 0, 0, 0.5);
+          content: "";
+          left: 0;
+          line-height: 1em;
+          margin-top: calc(0.125em / 2 * -1);
+          position: absolute;
+          right: 0;
+          top: 50%;
         }
       }
       .fa-check-circle {
@@ -299,19 +358,40 @@ main {
       .fa-times-circle {
         color: #cd3100;
       }
-      .strikeout {
-        position: relative;
-      }
-      .strikeout::after {
-        border-bottom: 0.125em solid rgba(255, 0, 0, 0.5);
-        content: "";
-        left: 0;
-        line-height: 1em;
-        margin-top: calc(0.125em / 2 * -1);
-        position: absolute;
-        right: 0;
-        top: 50%;
+      .fa-info-circle {
+        font-size: 12px;
+        color: #999;
       }
     }
   }
+}
+
+.tooltip {
+  display: none;
+}
+
+.explain {
+  border-bottom: 1px dashed #999;
+  display: inline;
+  position: relative;
+}
+
+.explain:hover {
+  /* Why not? */
+  cursor: help;
+}
+
+.explain:hover .tooltip {
+  /* Here's the meat */
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  display: block;
+  padding: 5px;
+  position: absolute;
+  z-index: 1000;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #fff;
+  width: 200px;
 }
