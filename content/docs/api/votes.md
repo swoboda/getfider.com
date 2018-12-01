@@ -3,12 +3,12 @@
 <ul>
   <li><a href="#add-vote">Vote on a Post</a></li>
   <li><a href="#remove-vote">Remove Vote from on a Post</a></li>
+  <li><a href="#list-post-votes">List Votes of a Post</a></li>
 </ul>
 
 <h4 id="add-vote">Vote on a Post</h4>
 
 - <strong>Authentication:</strong> Required
-- <strong>Required Role:</strong> Collaborator or Administrator
 
 When casting a vote upon a post, the vote is registered under the current authenticated user. Impersonate another user to vote on behalf of them.
 
@@ -48,7 +48,6 @@ POST <baseURL>/api/v1/posts/47/votes
 <h4 id="remove-vote">Remove Vote from on a Post</h4>
 
 - <strong>Authentication:</strong> Required
-- <strong>Required Role:</strong> Collaborator or Administrator
 
 When removing the vote from a post, the vote is removed from the current authenticated user. Impersonate another user to remove votes on behalf of them.
 
@@ -83,4 +82,59 @@ DELETE <baseURL>/api/v1/posts/47/votes
 200 OK
 ---
 {}
+```
+
+<h4 id="list-post-votes">List Votes of a Post</h4>
+
+- <strong>Authentication:</strong> Required
+- <strong>Required Role:</strong> Collaborator or Administrator
+
+```
+GET /api/v1/posts/{number}/votes
+```
+
+<strong>Parameters</strong>
+
+<table>
+  <tr>
+    <th width="140">Name</th>
+    <th width="90">Type</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>number</code></td>
+    <td><code>number</code></td>
+    <td><strong>Required.</strong> The number of the post to list the votes.</td>
+  </tr>
+</table>
+
+<strong>Example</strong>
+
+```
+GET <baseURL>/api/v1/posts/47/votes
+```
+
+<strong>Response</strong>
+
+```
+200 OK
+---
+[
+  {
+    "createdAt":"2018-11-28T12:18:26.95415Z",
+    "user":{
+      "id":1234,
+      "name":"Jon Snow",
+      "email":"jon.snow@got.com"
+    }
+  },
+  {
+    "createdAt":"2018-11-28T15:45:45.612288Z",
+    "user":{
+      "id":5678,
+      "name":"Arya Stark",
+      "email":"arya.stark@got.com"
+    }
+  }
+]
 ```

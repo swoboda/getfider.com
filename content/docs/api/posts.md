@@ -165,7 +165,6 @@ GET <baseURL>/api/v1/posts/65
 <h4 id="create-post">Create a Post</h4>
 
 - <strong>Authentication:</strong> Required
-- <strong>Required Role:</strong> Collaborator or Administrator
 
 ```
 POST /api/v1/posts
