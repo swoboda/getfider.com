@@ -12,7 +12,7 @@ $(document).ready(function() {
     $(".currency-js").html(sessionStorage.getItem("currency"));
   } else {
     $.getJSON("https://ipinfo.io/geo", function(data) {
-      var isEU = euCountries.indexOf(data.country)
+      var isEU = euCountries.indexOf(data.country) >= 0
       setCurrency(isEU ? "€" : "$");
     });
   }
