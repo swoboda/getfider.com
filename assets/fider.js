@@ -11,10 +11,10 @@ $(document).ready(function() {
   if (sessionStorage && sessionStorage.getItem("currency")) {
     $(".currency-js").html(sessionStorage.getItem("currency"));
   } else {
-    $.getJSON("https://ipinfo.io/geo", function(data) {
-      var isEU = euCountries.indexOf(data.country)
+    $.getJSON("https://api.ipdata.co?api-key=20338489079a61375c8d9cab64ac49dff68d5f2a8b71214c88944949", function(data) {
+      var isEU = euCountries.indexOf(data.country_code)
       setCurrency(isEU ? "€" : "$");
-    });
+    }, "jsonp");
   }
 
   $("#site-burger").click(function() {
