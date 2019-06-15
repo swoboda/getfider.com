@@ -3,6 +3,7 @@ date = "2018-10-24"
 title = "How we reduced our initial JS/CSS size by 67%"
 description = "We have been working on reducing the amount of bytes that we send to all Fider users. Being a web application built with React, we have focused on JS and CSS. On this post we share our learnings, some concepts and suggestions on how you can do the same with your web application."
 author = "goenning"
+canonicalUrl = "https://goenning.net/2018/11/26/how-we-reduced-initial-jscss-size/"
 +++
 
 <figure>
